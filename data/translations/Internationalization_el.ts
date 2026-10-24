@@ -4,24 +4,20 @@
 <context>
     <name>AbstractWidgetList</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="52"/>
         <source>Add New</source>
-        <translation>Προσθήκη Νέου</translation>
+        <translation type="vanished">Προσθήκη Νέου</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="103"/>
         <source>Move Up</source>
-        <translation>Μετακίνηση Επάνω</translation>
+        <translation type="vanished">Μετακίνηση Επάνω</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="104"/>
         <source>Move Down</source>
-        <translation>Μετακίνηση Κάτω</translation>
+        <translation type="vanished">Μετακίνηση Κάτω</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="105"/>
         <source>Remove</source>
-        <translation>Κατάργηση</translation>
+        <translation type="vanished">Κατάργηση</translation>
     </message>
 </context>
 <context>
@@ -53,33 +49,35 @@
 <context>
     <name>AppLauncherWidget</name>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="51"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="53"/>
         <source>Open With</source>
         <translation>Άνοιγμα Με</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="80"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="82"/>
         <source>Launch in terminal</source>
         <translation>Άνοιγμα στο τερματικό</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="81"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="83"/>
         <source>Keep open after selection</source>
         <translation>Να παραμείνει ανοικτό μετά την επιλογή</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="117"/>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="151"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="123"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="130"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="165"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="151"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="165"/>
         <source>Unable to launch in terminal.</source>
         <translation>Δεν είναι δυνατή η εκκίνηση στο τερματικό.</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="117"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="123"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="130"/>
         <source>Unable to write in</source>
         <translation>Δεν είναι δυνατή η εγγραφή στο</translation>
     </message>
@@ -87,14 +85,29 @@
 <context>
     <name>ArrowTool</name>
     <message>
-        <location filename="../../src/tools/arrow/arrowtool.cpp" line="78"/>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="145"/>
         <source>Arrow</source>
         <translation>Βέλος</translation>
     </message>
     <message>
-        <location filename="../../src/tools/arrow/arrowtool.cpp" line="88"/>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="155"/>
         <source>Set the Arrow as the paint tool</source>
         <translation>Ορίστε το Βέλος ως εργαλείο ζωγραφικής</translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="209"/>
+        <source>Arrow style:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="212"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="213"/>
+        <source>Curved</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -150,26 +163,22 @@
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="94"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="186"/>
         <location filename="../../src/widgets/capturelauncher.cpp" line="90"/>
         <source> seconds</source>
         <translation> δευτερόλεπτα</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="166"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="188"/>
         <source>Take new screenshot</source>
         <translation>Λήψη νέου στιγμιότυπου οθόνης</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="47"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="181"/>
         <source>Area:</source>
         <translation>Περιοχή:</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="14"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="179"/>
         <source>Capture Launcher</source>
         <translation>Εκκινητής Λήψης</translation>
     </message>
@@ -179,25 +188,21 @@
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="32"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="180"/>
         <source>Capture Mode</source>
         <translation>Λειτουργία Λήψης</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="64"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="183"/>
         <source>Delay:</source>
         <translation>Καθυστέρηση:</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="71"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="184"/>
         <source>Monitor:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="87"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="185"/>
         <source>WxH+x+y</source>
         <translation>WxH+x+y</translation>
     </message>
@@ -210,72 +215,72 @@
         <translation type="vanished">Δεν είναι δυνατή η λήψη της οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="468"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="474"/>
         <source>Mouse</source>
         <translation>Ποντίκι</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="468"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="474"/>
         <source>Select screenshot area</source>
         <translation>Επιλέξτε περιοχή στιγμιότυπου οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="482"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="488"/>
         <source>Mouse Wheel</source>
         <translation>Τροχός Ποντικιού</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="482"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="488"/>
         <source>Change tool size</source>
         <translation>Αλλαγή μεγέθους εργαλείου</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="483"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="489"/>
         <source>Right Click</source>
         <translation>Δεξί Κλίκ</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="483"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="489"/>
         <source>Show color picker</source>
         <translation>Εμφάνιση επιλογέα χρώματος</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="485"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="491"/>
         <source>Open side panel</source>
         <translation>Ανοίξτε το πλαϊνό πλαίσιο</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="486"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="492"/>
         <source>Esc</source>
         <translation>Esc</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="486"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="492"/>
         <source>Exit</source>
         <translation>Έξοδος</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="527"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="533"/>
         <source>Quit Capture</source>
         <translation>Ακύρωση Λήψης</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="528"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="534"/>
         <source>Are you sure you want to quit capture?</source>
         <translation>Είστε σίγουροι ότι θέλετε να ακυρώσετε τη λήψη;</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="533"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="539"/>
         <source>Do not show this again</source>
         <translation>Μην εμφανιστεί ξανά</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="777"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="783"/>
         <source>Flameshot has lost focus. Keyboard shortcuts won&apos;t work until you click somewhere.</source>
         <translation>Το Flameshot έχει χάσει την εστίαση. Οι συντομεύσεις πληκτρολογίου δεν θα λειτουργήσουν μέχρι να κάνετε κλικ κάπου.</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="783"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="789"/>
         <source>Configuration error resolved. Launch `flameshot gui` again to apply it.</source>
         <translation>Επιλύθηκε το σφάλμα διαμόρφωσης. Εκκινήστε ξανά το «flameshot gui» για να το εφαρμόσετε.</translation>
     </message>
@@ -292,7 +297,7 @@ Press Space to open the side panel.</source>
 Πατήστε καινό για να ανοίξετε τον πλευρικό πίνακα.</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="1215"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="1227"/>
         <source>Tool Settings</source>
         <translation>Ρυθμίσεις Εργαλείου</translation>
     </message>
@@ -300,12 +305,12 @@ Press Space to open the side panel.</source>
 <context>
     <name>CircleCountTool</name>
     <message>
-        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="69"/>
+        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="72"/>
         <source>Circle Counter</source>
         <translation>Κυκλικός Μετρητής</translation>
     </message>
     <message>
-        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="87"/>
+        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="90"/>
         <source>Add an autoincrementing counter bubble</source>
         <translation>Προσθέτει ένα αυτόματα αυξανόμενο μετρητή φυσαλίδων</translation>
     </message>
@@ -326,58 +331,40 @@ Press Space to open the side panel.</source>
 <context>
     <name>ColorDialog</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="19"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="312"/>
         <source>Select Color</source>
-        <translation>Επιλέξτε Χρώμα</translation>
+        <translation type="vanished">Επιλέξτε Χρώμα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="60"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="313"/>
         <source>Saturation</source>
-        <translation>Κορεσμός</translation>
+        <translation type="vanished">Κορεσμός</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="67"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="314"/>
         <source>Hue</source>
-        <translation>Απόχρωση</translation>
+        <translation type="vanished">Απόχρωση</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="84"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="315"/>
         <source>Hex</source>
-        <translation>Hex</translation>
+        <translation type="vanished">Hex</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="91"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="316"/>
         <source>Blue</source>
-        <translation>Μπλε</translation>
+        <translation type="vanished">Μπλε</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="128"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="317"/>
         <source>Value</source>
-        <translation>Τιμή</translation>
+        <translation type="vanished">Τιμή</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="135"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="318"/>
         <source>Green</source>
-        <translation>Πράσινο</translation>
+        <translation type="vanished">Πράσινο</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="142"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="319"/>
         <source>Alpha</source>
-        <translation>Alpha</translation>
+        <translation type="vanished">Alpha</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="149"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="320"/>
         <source>Red</source>
-        <translation>Κόκκινο</translation>
+        <translation type="vanished">Κόκκινο</translation>
     </message>
 </context>
 <context>
@@ -511,45 +498,45 @@ Press Space to open the side panel.</source>
 <context>
     <name>ConfigHandler</name>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="600"/>
+        <location filename="../../src/utils/confighandler.cpp" line="609"/>
         <source>Unrecognized setting: &apos;%1&apos;
 </source>
         <translation>Μη αναγνωρισμένη ρύθμιση: &apos;% 1&apos;
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="608"/>
+        <location filename="../../src/utils/confighandler.cpp" line="617"/>
         <source>Unrecognized shortcut name: &apos;%1&apos;.
 </source>
         <translation>Μη αναγνωρισμένο όνομα συντόμευσης: &apos;%1&apos;.
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="651"/>
+        <location filename="../../src/utils/confighandler.cpp" line="660"/>
         <source>Shortcut conflict: &apos;%1&apos; and &apos;%2&apos; have the same shortcut: %3
 </source>
         <translation>Διένεξη συντομεύσεων: &quot;% 1&quot; και &quot;% 2&quot; έχουν την ίδια συντόμευση: %3
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="689"/>
+        <location filename="../../src/utils/confighandler.cpp" line="698"/>
         <source>Bad value in &apos;%1&apos;. Expected: %2
 </source>
         <translation>Λάθος τιμή στο &apos;% 1&apos;. Αναμενόμενο: %2
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="738"/>
+        <location filename="../../src/utils/confighandler.cpp" line="747"/>
         <source>You have successfully resolved the configuration error.</source>
         <translation>Επιλύσατε με επιτυχία το σφάλμα διαμόρφωσης.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="761"/>
+        <location filename="../../src/utils/confighandler.cpp" line="770"/>
         <source>The configuration contains an error. Open configuration to resolve.</source>
         <translation>Η διαμόρφωση περιέχει ένα σφάλμα. Ανοίξτε τη διαμόρφωση για επίλυση.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="816"/>
+        <location filename="../../src/utils/confighandler.cpp" line="825"/>
         <source>Bad config key &apos;%1&apos; in ConfigHandler. Please report this as a bug.</source>
         <translation>Εσφαλμένο κλειδί διαμόρφωσης &apos;%1&apos; στο ConfigHandler. Αναφέρετε αυτό ως σφάλμα.</translation>
     </message>
@@ -614,37 +601,37 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>ConfigWindow</name>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="39"/>
+        <location filename="../../src/config/configwindow.cpp" line="44"/>
         <source>Configuration</source>
         <translation>Διαμόρφωση</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="67"/>
+        <location filename="../../src/config/configwindow.cpp" line="72"/>
         <source>Interface</source>
         <translation>Διεπαφή</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="77"/>
+        <location filename="../../src/config/configwindow.cpp" line="82"/>
         <source>Filename Editor</source>
         <translation>Επεξεργαστής Ονόματος αρχείου</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="58"/>
+        <location filename="../../src/config/configwindow.cpp" line="63"/>
         <source>General</source>
         <translation>Γενικά</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="86"/>
+        <location filename="../../src/config/configwindow.cpp" line="91"/>
         <source>Shortcuts</source>
         <translation>Συντομεύσεις</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="119"/>
+        <location filename="../../src/config/configwindow.cpp" line="124"/>
         <source>Resolve</source>
         <translation>Επίλυση</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="123"/>
+        <location filename="../../src/config/configwindow.cpp" line="128"/>
         <source>&lt;b&gt;Configuration file has errors. Resolve them before continuing.&lt;/b&gt;</source>
         <translation>&lt;b&gt;Το αρχείο διαμόρφωσης έχει σφάλματα. Επιλύστε τα πριν συνεχίσετε.&lt;/b&gt;</translation>
     </message>
@@ -796,17 +783,17 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>Flameshot</name>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="122"/>
+        <location filename="../../src/core/flameshot.cpp" line="165"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="122"/>
+        <location filename="../../src/core/flameshot.cpp" line="165"/>
         <source>Unable to close active modal widgets</source>
         <translation>Δεν είναι δυνατό το κλείσιμο των ενεργών γραφικών στοιχείων</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="441"/>
+        <location filename="../../src/core/flameshot.cpp" line="527"/>
         <source>URL copied to clipboard.</source>
         <translation>Η διεύθυνση URL αντιγράφηκε στο πρόχειρο.</translation>
     </message>
@@ -818,18 +805,18 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Η νέα έκδοση % 1 είναι διαθέσιμη</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="272"/>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="436"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="275"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="435"/>
         <source>You have the latest version</source>
         <translation>Έχετε την πιο πρόσφατη έκδοση</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="445"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="444"/>
         <source>Failed to get information about the latest version.</source>
         <translation>Αποτυχία λήψης πληροφοριών για την πιο πρόσφατη έκδοση.</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="468"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="467"/>
         <source>Unable to connect via DBus</source>
         <translation>Δεν είναι δυνατή η σύνδεση μέσω DBus</translation>
     </message>
@@ -904,47 +891,47 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>GeneralConf</name>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="195"/>
+        <location filename="../../src/config/generalconf.cpp" line="197"/>
         <location filename="../../src/config/generalconf.cpp" line="379"/>
         <source>Import</source>
         <translation>Εισαγωγή</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="201"/>
-        <location filename="../../src/config/generalconf.cpp" line="210"/>
-        <location filename="../../src/config/generalconf.cpp" line="235"/>
+        <location filename="../../src/config/generalconf.cpp" line="203"/>
+        <location filename="../../src/config/generalconf.cpp" line="212"/>
+        <location filename="../../src/config/generalconf.cpp" line="237"/>
         <location filename="../../src/config/generalconf.cpp" line="754"/>
         <source>Error</source>
         <translation>Σφάλμα</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="201"/>
+        <location filename="../../src/config/generalconf.cpp" line="203"/>
         <source>Unable to read file.</source>
         <translation>Δεν είναι δυνατή η ανάγνωση του αρχείου.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="210"/>
-        <location filename="../../src/config/generalconf.cpp" line="235"/>
+        <location filename="../../src/config/generalconf.cpp" line="212"/>
+        <location filename="../../src/config/generalconf.cpp" line="237"/>
         <source>Unable to write file.</source>
         <translation>Δεν είναι δυνατή η εγγραφή του αρχείου.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="222"/>
+        <location filename="../../src/config/generalconf.cpp" line="224"/>
         <source>Save File</source>
         <translation>Αποθήκευση Αρχείου</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="244"/>
+        <location filename="../../src/config/generalconf.cpp" line="246"/>
         <source>Confirm Reset</source>
         <translation>Επιβεβαίωση Επαναφοράς</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="245"/>
+        <location filename="../../src/config/generalconf.cpp" line="247"/>
         <source>Are you sure you want to reset the configuration?</source>
         <translation>Είστε βέβαιοι ότι θέλετε να επαναφέρετε τη διαμόρφωση;</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="276"/>
+        <location filename="../../src/config/generalconf.cpp" line="278"/>
         <source>Show help message</source>
         <translation>Εμφάνιση μηνύματος βοήθειας</translation>
     </message>
@@ -953,7 +940,7 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Εμφάνιση του μηνύματος βοήθειας στην αρχή της λειτουργίας λήψης.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="301"/>
+        <location filename="../../src/config/generalconf.cpp" line="303"/>
         <source>Show the side panel button</source>
         <translation>Εμφάνιση του κουμπιού του πλαϊνού πίνακα</translation>
     </message>
@@ -962,12 +949,12 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Εμφάνιση του κουμπιού εναλλαγής του πλαϊνού πίνακα στη λειτουργία λήψης.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="314"/>
+        <location filename="../../src/config/generalconf.cpp" line="316"/>
         <source>Show desktop notifications</source>
         <translation>Εμφάνιση ειδοποιήσεων στην επιφάνειας εργασίας</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="339"/>
+        <location filename="../../src/config/generalconf.cpp" line="340"/>
         <source>Show tray icon</source>
         <translation>Εμφάνιση εικονιδίου tray</translation>
     </message>
@@ -1050,42 +1037,42 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Αποθηκεύστε το αρχείο εικόνας αφού το αντιγράψετε</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="277"/>
+        <location filename="../../src/config/generalconf.cpp" line="279"/>
         <source>Show the help message at the beginning in the capture mode</source>
         <translation>Εμφανίστε το μήνυμα βοήθειας στην αρχή στη λειτουργία λήψης</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="287"/>
+        <location filename="../../src/config/generalconf.cpp" line="289"/>
         <source>Use last region for GUI mode</source>
         <translation>Χρησιμοποιήστε την τελευταία περιοχή</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="289"/>
+        <location filename="../../src/config/generalconf.cpp" line="291"/>
         <source>Use the last region as the default selection for the next screenshot in GUI mode</source>
         <translation type="unfinished">Χρησιμοποιεί την τελευταία περιοχή ως προεπιλεγμένη επιλογή για το επόμενο στιγμιότυπο οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="303"/>
+        <location filename="../../src/config/generalconf.cpp" line="305"/>
         <source>Show the side panel toggle button in the capture mode</source>
         <translation>Εμφάνιση του κουμπιού εναλλαγής του πλαϊνού πίνακα στη λειτουργία λήψης</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="315"/>
+        <location filename="../../src/config/generalconf.cpp" line="317"/>
         <source>Enable desktop notifications</source>
         <translation>Ενεργοποίηση ειδοποιήσεων επιφάνειας εργασίας</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="326"/>
+        <location filename="../../src/config/generalconf.cpp" line="328"/>
         <source>Show abort notifications</source>
         <translation>Εμφάνιση ειδοποίησεων ακύρωσης</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="327"/>
+        <location filename="../../src/config/generalconf.cpp" line="329"/>
         <source>Enable abort notifications</source>
         <translation>Ενεργοποίηση ειδοποιήσεων ακύρωσης</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="340"/>
+        <location filename="../../src/config/generalconf.cpp" line="341"/>
         <source>Show icon in the system tray</source>
         <translation>Εμφάνιση εικονιδίου στο tray συστήματος</translation>
     </message>
@@ -1356,32 +1343,52 @@ Please solve them manually in the configuration file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="872"/>
+        <location filename="../../src/config/generalconf.cpp" line="873"/>
+        <source>Draw outline around circle counter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="875"/>
+        <source>Draw a contrasting ring around the counter bubble so it stays visible on any background</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="886"/>
         <source>Insecure Pixelate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="874"/>
+        <location filename="../../src/config/generalconf.cpp" line="888"/>
         <source>Draw the pixelation effect in an insecure but more asethetic way.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="929"/>
-        <source>Capture active monitor (skip monitor selection)</source>
+        <location filename="../../src/config/generalconf.cpp" line="943"/>
+        <source>Capture active monitor in X11 and Windows (skip monitor selection)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="931"/>
-        <source>Automatically capture the monitor where the cursor is located instead of showing the monitor selection dialog. This feature is not supported on Wayland.</source>
+        <location filename="../../src/config/generalconf.cpp" line="946"/>
+        <source>Automatically capture the monitor where the cursor is located instead of showing the monitor selection dialog. This feature is not supported on macOS and Wayland.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="952"/>
-        <source>Use legacy X11 screenshot method (deprecated)</source>
+        <location filename="../../src/config/generalconf.cpp" line="967"/>
+        <source>Use native fullscreen for capture overlay</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="954"/>
+        <location filename="../../src/config/generalconf.cpp" line="969"/>
+        <source>Use macOS native fullscreen mode for the capture overlay. When disabled (default), the overlay avoids the fullscreen desktop animation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="990"/>
+        <source>Use legacy X11 screenshot method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="992"/>
         <source>Bypass the freedesktop portal and use Qt&apos;s native X11 screen capture. Enable this if your window manager lacks xdg-desktop-portal (e.g. xmonad, i3). Only effective on X11; ignored on Wayland.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1613,49 +1620,41 @@ Please solve them manually in the configuration file.</source>
     <name>InfoWindow</name>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="14"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="116"/>
         <source>About</source>
         <translation>Σχετικά με</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="26"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="117"/>
         <source>Icon</source>
         <translation>Εικονίδιο</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="43"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="118"/>
         <source>License</source>
         <translation>Άδεια</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="56"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="119"/>
         <source>GPLv3+</source>
         <translation>GPLv3+</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="89"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="120"/>
         <source>Version</source>
         <translation>Έκδοση</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="102"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="121"/>
         <source>Flameshot v</source>
         <translation>Flameshot v</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="115"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="122"/>
         <source>OS Info</source>
         <translation>Πληροφορίες Λειτουργικού Συστήματος</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="128"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="123"/>
         <source>Copy Info</source>
         <translation>Αντιγραφή πληροφοριών</translation>
     </message>
@@ -1766,7 +1765,13 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>MonitorPreview</name>
     <message>
-        <location filename="../../src/utils/monitorpreview.cpp" line="31"/>
+        <location filename="../../src/utils/monitorpreview.cpp" line="45"/>
+        <source>Monitor %1: %2
+Click or press %1 to select</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/monitorpreview.cpp" line="48"/>
         <source>Monitor %1: %2
 Click to select</source>
         <translation type="unfinished"></translation>
@@ -1783,6 +1788,52 @@ Click to select</source>
         <location filename="../../src/tools/move/movetool.cpp" line="34"/>
         <source>Move the selection area</source>
         <translation>Μετακίνηση της επιλεγμένης περιοχής</translation>
+    </message>
+</context>
+<context>
+    <name>OcrRunner</name>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="20"/>
+        <source>Unable to save the selection for OCR.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="48"/>
+        <source>OCR failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="49"/>
+        <source>OCR failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="59"/>
+        <source>No text detected in the selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="62"/>
+        <source>OCR text copied to clipboard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="71"/>
+        <source>Unable to find the tesseract executable. Install tesseract to use OCR.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OcrTool</name>
+    <message>
+        <location filename="../../src/tools/ocr/ocrtool.cpp" line="24"/>
+        <source>OCR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/ocr/ocrtool.cpp" line="33"/>
+        <source>Copy text from selection using OCR</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1814,42 +1865,42 @@ Click to select</source>
 <context>
     <name>PinWidget</name>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="282"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="278"/>
         <source>Context menu</source>
         <translation>Γενικό πλαίσιο μενού</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="284"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="280"/>
         <source>Copy to clipboard</source>
         <translation>Αντιγραφή στο πρόχειρο</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="291"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="287"/>
         <source>Save to file</source>
         <translation>Αποθήκευση στο αρχείο</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="298"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="294"/>
         <source>Rotate Right</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="303"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="299"/>
         <source>Rotate Left</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="308"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="304"/>
         <source>Increase Opacity</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="315"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="311"/>
         <source>Decrease Opacity</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="322"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="318"/>
         <source>Close</source>
         <translation type="unfinished">Κλείσιμο</translation>
     </message>
@@ -1872,19 +1923,6 @@ Click to select</source>
     </message>
 </context>
 <context>
-    <name>PrimaryInstanceWidget</name>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/primaryinstancewidget.cpp" line="21"/>
-        <source>Primary instance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/primaryinstancewidget.cpp" line="22"/>
-        <source>&lt;b&gt;Primary instance.&lt;/b&gt; Messages received from secondaries:</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
     <name>QHotkey</name>
     <message>
         <source>Failed to register %1. Error: %2</source>
@@ -1898,24 +1936,24 @@ Click to select</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="204"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="206"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="270"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="260"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="262"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="328"/>
         <source>Capture saved to clipboard.</source>
         <translation>Η λήψη αποθηκεύτηκε στο πρόχειρο.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="190"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="246"/>
         <source>Error while saving to clipboard</source>
         <translation>Σφάλμα κατά την αποθήκευση στο πρόχειρο</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="326"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="384"/>
         <source>Save screenshot</source>
         <translation>Αποθήκευση στιγμιότυπου οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="358"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="416"/>
         <source>Path copied to clipboard as </source>
         <translation>Η διαδρομή αντιγράφηκε στο πρόχειρο ως </translation>
     </message>
@@ -1932,34 +1970,34 @@ Click to select</source>
         <translation type="vanished">Capture is saved and copied to the clipboard as </translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="369"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="427"/>
         <source>Save Error</source>
         <translation>Αποθήκευση Σφάλματος</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="64"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="349"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="123"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="407"/>
         <source>Capture saved as </source>
         <translation>Η λήψη αποθηκεύτηκε ως </translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="69"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="362"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="128"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="420"/>
         <source>Error trying to save as </source>
         <translation>Σφάλμα κατά την προσπάθεια αποθήκευσης ως </translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="251"/>
+        <location filename="../../src/main.cpp" line="267"/>
         <source>Unable to connect via DBus</source>
         <translation>Δεν είναι δυνατή η σύνδεση μέσω DBus</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="268"/>
+        <location filename="../../src/main.cpp" line="284"/>
         <source>Powerful yet simple to use screenshot software.</source>
         <translation>Ισχυρό αλλά απλό στη χρήση λογισμικό στιγμιότυπων οθόνης.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="269"/>
+        <location filename="../../src/main.cpp" line="285"/>
         <source>See</source>
         <translation>Δες</translation>
     </message>
@@ -1968,17 +2006,17 @@ Click to select</source>
         <translation type="vanished">Καταγράψτε ολόκληρη την επιφάνεια εργασίας.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="275"/>
+        <location filename="../../src/main.cpp" line="291"/>
         <source>Open the capture launcher.</source>
         <translation>Ανοίξτε τον εκκινητή καταγραφής.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="278"/>
+        <location filename="../../src/main.cpp" line="294"/>
         <source>Start a manual capture in GUI mode.</source>
         <translation>Ξεκινήστε μια χειροκίνητη λήψη σε λειτουργία GUI.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="280"/>
+        <location filename="../../src/main.cpp" line="296"/>
         <source>Configure</source>
         <translation>Διαμορφώστε</translation>
     </message>
@@ -1991,27 +2029,27 @@ Click to select</source>
         <translation type="vanished">Path where the capture will be saved</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="273"/>
+        <location filename="../../src/main.cpp" line="289"/>
         <source>Capture screenshot of all monitors at the same time.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="283"/>
+        <location filename="../../src/main.cpp" line="299"/>
         <source>Capture a screenshot of the specified monitor.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="288"/>
+        <location filename="../../src/main.cpp" line="304"/>
         <source>Existing directory or new file to save to</source>
         <translation>Υπάρχων κατάλογος ή νέο αρχείο για αποθήκευση</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="291"/>
+        <location filename="../../src/main.cpp" line="307"/>
         <source>Save the capture to the clipboard</source>
         <translation>Αποθηκεύστε τη λήψη στο πρόχειρο</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="293"/>
+        <location filename="../../src/main.cpp" line="309"/>
         <source>Pin the capture to the screen</source>
         <translation>Καρφιτσώστε τη λήψη στην οθόνη</translation>
     </message>
@@ -2020,97 +2058,97 @@ Click to select</source>
         <translation type="vanished">Μεταφόρτωση στιγμιότυπου οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="295"/>
+        <location filename="../../src/main.cpp" line="311"/>
         <source>Delay time in milliseconds</source>
         <translation>Χρόνος καθυστέρησης σε χιλιοστά του δευτερολέπτου</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="300"/>
+        <location filename="../../src/main.cpp" line="316"/>
         <source>Repeat screenshot with previously selected region</source>
         <translation>Επαναλάβετε το στιγμιότυπο οθόνης με την προηγουμένως επιλεγμένη περιοχή</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="303"/>
+        <location filename="../../src/main.cpp" line="319"/>
         <source>Screenshot region to select</source>
         <translation>Περιοχή στιγμιότυπου οθόνης για επιλογή</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="306"/>
+        <location filename="../../src/main.cpp" line="322"/>
         <source>Set the filename pattern</source>
         <translation>Ορίστε το μοτίβο ονόματος αρχείου</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="310"/>
+        <location filename="../../src/main.cpp" line="326"/>
         <source>Accept capture as soon as a selection is made</source>
         <translation>Αποδεχτείτε τη λήψη μόλις γίνει μια επιλογή</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="312"/>
+        <location filename="../../src/main.cpp" line="328"/>
         <source>Enable or disable the trayicon</source>
         <translation>Ενεργοποιήστε ή απενεργοποιήστε το εικονίδιο tray</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="316"/>
+        <location filename="../../src/main.cpp" line="332"/>
         <source>Enable or disable run at startup</source>
         <translation>Ενεργοποίηση ή απενεργοποίηση της εκτέλεσης κατά την εκκίνηση</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="320"/>
+        <location filename="../../src/main.cpp" line="336"/>
         <source>Enable or disable the notifications</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="323"/>
+        <location filename="../../src/main.cpp" line="339"/>
         <source>Check the configuration for errors</source>
         <translation>Ελέγξτε τη διαμόρφωση για σφάλματα</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="326"/>
+        <location filename="../../src/main.cpp" line="342"/>
         <source>Show the help message in the capture mode</source>
         <translation>Εμφάνιση του μηνύματος βοήθειας στη λειτουργία λήψης</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="329"/>
+        <location filename="../../src/main.cpp" line="345"/>
         <source>Define the main UI color</source>
         <translation>Καθορίστε το κύριο χρώμα διεπαφής χρήστη</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="333"/>
+        <location filename="../../src/main.cpp" line="349"/>
         <source>Define the contrast UI color</source>
         <translation>Καθορίστε το χρώμα του αντίθεσης διεπαφής χρήστη</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="336"/>
+        <location filename="../../src/main.cpp" line="352"/>
         <source>Print raw PNG capture</source>
         <translation>Εκτυπώστε λήψη raw PNG</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="339"/>
+        <location filename="../../src/main.cpp" line="355"/>
         <source>Print geometry of the selection in the format WxH+X+Y. Does nothing if raw is specified</source>
         <translation>Εκτύπωση γεωμετρίας της επιλογής στη μορφή WxH+X+Y. Δεν κάνει τίποτα εάν έχει καθοριστεί raw</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="343"/>
+        <location filename="../../src/main.cpp" line="359"/>
         <source>Define the screen to capture (starting from 0)</source>
         <translation>Καθορίστε την οθόνη για λήψη (ξεκινώντας από το 0)</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="349"/>
+        <location filename="../../src/main.cpp" line="365"/>
         <source>Interactively select and edit the screenshot region</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="366"/>
+        <location filename="../../src/main.cpp" line="382"/>
         <source>Invalid delay, it must be a number greater than 0</source>
         <translation>Μη έγκυρη καθυστέρηση, πρέπει να είναι αριθμός μεγαλύτερος από 0</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="369"/>
+        <location filename="../../src/main.cpp" line="385"/>
         <source>Invalid region, use &apos;WxH+X+Y&apos; or &apos;all&apos; or &apos;screen0/screen1/...&apos;.</source>
         <translation>Μη έγκυρη περιοχή, χρησιμοποιήστε &apos;WxH+X+Y&apos; ή &apos;όλες&apos; ή &apos;οθόνη0/οθόνη1/...&apos;.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="382"/>
+        <location filename="../../src/main.cpp" line="398"/>
         <source>Invalid path, must be an existing directory or a new file in an existing directory</source>
         <translation>Μη έγκυρη διαδρομή, πρέπει να είναι ένας υπάρχων κατάλογος ή ένα νέο αρχείο σε έναν υπάρχοντα κατάλογο</translation>
     </message>
@@ -2119,17 +2157,17 @@ Click to select</source>
         <translation type="vanished">Define the screen to capture</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="344"/>
+        <location filename="../../src/main.cpp" line="360"/>
         <source>default: screen containing the cursor</source>
         <translation>προεπιλογή: οθόνη που περιέχει τον κέρσορα</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="345"/>
+        <location filename="../../src/main.cpp" line="361"/>
         <source>Screen number</source>
         <translation>Αριθμός οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="357"/>
+        <location filename="../../src/main.cpp" line="373"/>
         <source>Invalid color, this flag supports the following formats:
 - #RGB (each of R, G, and B is a single hex digit)
 - #RRGGBB
@@ -2150,7 +2188,7 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Invalid delay, it must be higher than 0</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="368"/>
+        <location filename="../../src/main.cpp" line="384"/>
         <source>Invalid screen number, it must be non negative</source>
         <translation>Μη έγκυρος αριθμός οθόνης, δεν πρέπει να είναι αρνητικός</translation>
     </message>
@@ -2159,7 +2197,7 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Invalid path, it must be a real path in the system</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="395"/>
+        <location filename="../../src/main.cpp" line="411"/>
         <source>Invalid value, it must be defined as &apos;true&apos; or &apos;false&apos;</source>
         <translation>Μη έγκυρη τιμή, πρέπει να οριστεί ως &quot;true&quot; ή &quot;false&quot;</translation>
     </message>
@@ -2174,12 +2212,12 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation>Δεν είναι δυνατή η εγγραφή στο</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="168"/>
+        <location filename="../../src/core/flameshot.cpp" line="214"/>
         <source>Requested screen exceeds screen count</source>
         <translation>Η ζητούμενη οθόνη υπερβαίνει τον αριθμό οθονών</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="418"/>
+        <location filename="../../src/core/flameshot.cpp" line="498"/>
         <source>Full screen screenshot pinned to screen</source>
         <translation>Στιγμιότυπο πλήρης οθόνης καρφιτσώθηκε στην οθόνη</translation>
     </message>
@@ -2279,27 +2317,27 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Delete current tool</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="208"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="209"/>
         <source>Quit capture</source>
         <translation>Κλείστε την λήψη</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="224"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="225"/>
         <source>Screenshot history</source>
         <translation>Ιστορικό στιγμιότυπων οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="219"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="220"/>
         <source>Capture screen</source>
         <translation>Καταγραφή οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="233"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="234"/>
         <source>Show color picker</source>
         <translation>Εμφάνιση επιλογέα χρώματος</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="234"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="235"/>
         <source>Change the tool&apos;s size</source>
         <translation>Αλλάξτε το μέγεθος των εργαλείων</translation>
     </message>
@@ -2362,140 +2400,118 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Συμβουλή: δοκιμάστε να ρυθμίσετε τη μεταβλητή περιβάλλοντος XDG_CURRENT_DESKTOP.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="61"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="65"/>
         <source>Could not locate the `org.freedesktop.portal.Desktop` service</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="109"/>
-        <source>Screenshot portal timed out after 30 seconds</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="132"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="176"/>
         <source>FreeDesktop portal screenshot size: %1x%2, DPR: %3</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="159"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="251"/>
         <source>Capture Active Monitor is not supported on Wayland due to Wayland security model.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="177"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="269"/>
         <source>Screenshot already in progress, please wait for the current screenshot to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="202"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="296"/>
         <source>Screenshot cancelled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="218"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="312"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="318"/>
         <source>Unable to get current screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="237"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="243"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="299"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="304"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="198"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="221"/>
         <source>Unable to capture screen</source>
         <translation>Δεν είναι δυνατή η λήψη της οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="373"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="150"/>
+        <source>The `org.freedesktop.portal.Screenshot` request failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/screengrabber.cpp" line="163"/>
+        <source>The xdg-desktop-portal backend did not respond If you are on wayland make sure an xdg-desktop-portal backend for your desktop is installed and properly configured.
+ 
+If on X11 enable Legacy X11 method in the General Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/screengrabber.cpp" line="212"/>
+        <source>Screenshot portal unavailable, using direct X11 capture</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/screengrabber.cpp" line="447"/>
         <source>=== All Screen Information ===</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="376"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="551"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="450"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="733"/>
         <source>Screen %1: %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="377"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="451"/>
         <source>  Logical geometry: %1x%2+%3+%4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="382"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="456"/>
         <source>  DPR: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="488"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="670"/>
         <source>Total logical dimensions: %1x%2 (min: %3,%4)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="493"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="675"/>
         <source>Screenshot dimensions: %1x%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="509"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="691"/>
         <source>Screenshot scale factors: X=%1 Y=%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="542"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="724"/>
         <source>Calculated crop position for mixed DPI: X=%1 Y=%2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="552"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="734"/>
         <source>  Logical geometry: %1x%2+%3+%4 DPR: %5</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="558"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="740"/>
         <source>  Crop rect in screenshot: %1x%2+%3+%4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="571"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="753"/>
         <source>Crop rect is empty, returning full screenshot</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="587"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="769"/>
         <source>Scaling screenshot to: %1 %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>SecondaryInstanceWidget</name>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="26"/>
-        <source>Secondary instance</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="27"/>
-        <source>&lt;b&gt;Secondary instance.&lt;/b&gt; Send message to primary:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="29"/>
-        <source>Type something here...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="31"/>
-        <source>&amp;Send</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="54"/>
-        <source>Error sending message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="55"/>
-        <source>The message &apos;%1&apos; could not be sent to the primary.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2659,40 +2675,45 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="268"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="206"/>
+        <source>Close Active Pinned Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/shortcutswidget.cpp" line="269"/>
         <source>It seems, that Windows forces to open its screenshot tool when the &apos;Print Screen&apos; key is pressed. Would you like to disable this so that Flameshot can use the &apos;Print Screen&apos; key?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="273"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="274"/>
         <source>Flameshot must be restarted for changes to take effect.</source>
         <translation type="unfinished">Πρέπει να γίνει επανεκκίνηση του Flameshot για να τεθούν σε ισχύ οι αλλαγές.</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="278"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="279"/>
         <source>No, don&apos;t ask again</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="286"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="333"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="343"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="287"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="334"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="344"/>
         <source>The registry could not be changed!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="317"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="318"/>
         <source>Register Flameshot as MS-SCREENCLIP application (administrator privileges required)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="321"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="322"/>
         <source>After registering, you can select Flameshot as the default screenshot application in Windows Settings.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="334"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="344"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="335"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="345"/>
         <source>You may start Flameshot as administrator ONCE and try again!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2701,13 +2722,13 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Διαγραφή τρέχοντος εργαλείου</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="213"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="222"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="214"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="223"/>
         <source>Capture screen</source>
         <translation>Καταγραφή οθόνης</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="215"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="216"/>
         <source>Screenshot history</source>
         <translation>Ιστορικό στιγμιότυπων οθόνης</translation>
     </message>
@@ -2791,88 +2812,114 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
 <context>
     <name>StrftimeChooserWidget</name>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="44"/>
         <source>Century (00-99)</source>
-        <translation type="vanished">Αιώνας (00-99)</translation>
+        <translation>Αιώνας (00-99)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="45"/>
         <source>Year (00-99)</source>
-        <translation type="vanished">Έτος (00-99)</translation>
+        <translation>Έτος (00-99)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="46"/>
         <source>Year (2000)</source>
-        <translation type="vanished">Έτος (2000)</translation>
+        <translation>Έτος (2000)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="49"/>
         <source>Month Name (jan)</source>
-        <translation type="vanished">Όνομα Μήνα (Ιαν)</translation>
+        <translation>Όνομα Μήνα (Ιαν)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="50"/>
         <source>Month Name (january)</source>
-        <translation type="vanished">Όνομα Μήνα (Ιανουάριος)</translation>
+        <translation>Όνομα Μήνα (Ιανουάριος)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="52"/>
         <source>Month (01-12)</source>
-        <translation type="vanished">Μήνας (01-12)</translation>
+        <translation>Μήνας (01-12)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="53"/>
         <source>Week Day (1-7)</source>
-        <translation type="vanished">Ημέρα Eβδομάδας (1-7)</translation>
+        <translation>Ημέρα Eβδομάδας (1-7)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="54"/>
         <source>Week (01-53)</source>
-        <translation type="vanished">Εβδομάδα (01-53)</translation>
+        <translation>Εβδομάδα (01-53)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="57"/>
         <source>Day Name (mon)</source>
-        <translation type="vanished">Όνομα Hμέρας (Δευτ)</translation>
+        <translation>Όνομα Hμέρας (Δευτ)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="58"/>
         <source>Day Name (monday)</source>
-        <translation type="vanished">Όνομα Ημέρας (Δευτέρα)</translation>
+        <translation>Όνομα Ημέρας (Δευτέρα)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="60"/>
         <source>Day (01-31)</source>
-        <translation type="vanished">Ημέρα (01-31)</translation>
+        <translation>Ημέρα (01-31)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="61"/>
         <source>Day of Month (1-31)</source>
-        <translation type="vanished">Ημέρα του Μήνα (1-31)</translation>
+        <translation>Ημέρα του Μήνα (1-31)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="62"/>
         <source>Day (001-366)</source>
-        <translation type="vanished">Ημέρα (001-366)</translation>
+        <translation>Ημέρα (001-366)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="68"/>
         <source>Hour (00-23)</source>
-        <translation type="vanished">Ώρα (00-23)</translation>
+        <translation>Ώρα (00-23)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="69"/>
         <source>Hour (01-12)</source>
-        <translation type="vanished">Ώρα (01-12)</translation>
+        <translation>Ώρα (01-12)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="70"/>
         <source>Minute (00-59)</source>
-        <translation type="vanished">Λεπτό (00-59)</translation>
+        <translation>Λεπτό (00-59)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="71"/>
         <source>Second (00-59)</source>
-        <translation type="vanished">Δευτερόλεπτο (00-59)</translation>
+        <translation>Δευτερόλεπτο (00-59)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="74"/>
         <source>Full Date (%m/%d/%y)</source>
-        <translation type="vanished">Πλήρης Ημερομηνία (%μήνας/%μέρα/%έτος)</translation>
+        <translation>Πλήρης Ημερομηνία (%μήνας/%μέρα/%έτος)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="76"/>
         <source>Full Date (%Y-%m-%d)</source>
-        <translation type="vanished">Πλήρης Ημερομηνία (%έτος-%μήνας-%μέρα)</translation>
+        <translation>Πλήρης Ημερομηνία (%έτος-%μήνας-%μέρα)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="77"/>
+        <source>Full Date (%d-%m-%Y)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="65"/>
         <source>Time (%H-%M-%S)</source>
-        <translation type="vanished">Ώρα (%Ω-%Λ-%Δ)</translation>
+        <translation>Ώρα (%Ω-%Λ-%Δ)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="66"/>
         <source>Time (%H-%M)</source>
-        <translation type="vanished">Ώρα (%Ω-%Λ)</translation>
+        <translation>Ώρα (%Ω-%Λ)</translation>
     </message>
 </context>
 <context>
@@ -3009,34 +3056,45 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Επεξεργαστής Χρωμάτων Διεπαφής χρήστη</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="89"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="104"/>
         <source>Change the color moving the selectors and see the changes in the preview buttons.</source>
         <translation>Αλλάξτε το χρώμα μετακινώντας τους επιλογείς και δείτε τις αλλαγές στα κουμπιά προεπισκόπησης.</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="100"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="115"/>
         <source>Select a Button to modify it</source>
         <translation>Επιλέξτε ένα κουμπί για να το τροποποιήσετε</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="110"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="125"/>
         <source>Main Color</source>
         <translation>Κύριο Χρώμα</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="114"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="129"/>
         <source>Click on this button to set the edition mode of the main color.</source>
         <translation>Κάντε κλικ σε αυτό το κουμπί για να ορίσετε τη λειτουργία έκδοσης του κύριου χρώματος.</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="125"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="140"/>
         <source>Contrast Color</source>
         <translation>Χρώμα Αντίθεσης</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="130"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="145"/>
         <source>Click on this button to set the edition mode of the contrast color.</source>
         <translation>Κάντε κλικ σε αυτό το κουμπί για να ορίσετε τη λειτουργία έκδοσης του χρώματος αντίθεσης.</translation>
+    </message>
+    <message>
+        <location filename="../../src/config/uicoloreditor.cpp" line="169"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="196"/>
+        <source>Hex for Main Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/uicoloreditor.cpp" line="201"/>
+        <source>Hex for Contrast Color</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3180,160 +3238,124 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
 <context>
     <name>color_widgets::ColorDialog</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.cpp" line="63"/>
         <source>Pick</source>
-        <translation>Επιλογή</translation>
+        <translation type="vanished">Επιλογή</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::ColorPalette</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette.cpp" line="422"/>
         <source>Unnamed</source>
-        <translation>Ανώνυμο</translation>
+        <translation type="vanished">Ανώνυμο</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::ColorPaletteModel</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_model.cpp" line="55"/>
         <source>Unnamed</source>
-        <translation>Ανώνυμο</translation>
+        <translation type="vanished">Ανώνυμο</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_model.cpp" line="130"/>
         <source>%1 (%2 colors)</source>
-        <translation>% 1 (% 2 χρώματα)</translation>
+        <translation type="vanished">% 1 (% 2 χρώματα)</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::ColorPaletteWidget</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="64"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="231"/>
         <source>Open a new palette from file</source>
-        <translation>Ανοίξτε μια νέα παλέτα από το αρχείο</translation>
+        <translation type="vanished">Ανοίξτε μια νέα παλέτα από το αρχείο</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="75"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="234"/>
         <source>Create a new palette</source>
-        <translation>Δημιουργήστε μια νέα παλέτα</translation>
+        <translation type="vanished">Δημιουργήστε μια νέα παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="86"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="237"/>
         <source>Duplicate the current palette</source>
-        <translation>Αντιγράψτε την τρέχουσα παλέτα</translation>
+        <translation type="vanished">Αντιγράψτε την τρέχουσα παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="170"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="240"/>
         <source>Delete the current palette</source>
-        <translation>Διαγράψτε την τρέχουσα παλέτα</translation>
+        <translation type="vanished">Διαγράψτε την τρέχουσα παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="181"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="243"/>
         <source>Revert changes to the current palette</source>
-        <translation>Επαναφέρετε τις αλλαγές στην τρέχουσα παλέτα</translation>
+        <translation type="vanished">Επαναφέρετε τις αλλαγές στην τρέχουσα παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="192"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="246"/>
         <source>Save changes to the current palette</source>
-        <translation>Αποθηκεύστε τις αλλαγές στην τρέχουσα παλέτα</translation>
+        <translation type="vanished">Αποθηκεύστε τις αλλαγές στην τρέχουσα παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="216"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="249"/>
         <source>Add a color to the palette</source>
-        <translation>Προσθέστε ένα χρώμα στην παλέτα</translation>
+        <translation type="vanished">Προσθέστε ένα χρώμα στην παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="227"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="252"/>
         <source>Remove the selected color from the palette</source>
-        <translation>Αφαιρέστε το επιλεγμένο χρώμα από την παλέτα</translation>
+        <translation type="vanished">Αφαιρέστε το επιλεγμένο χρώμα από την παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="181"/>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="196"/>
         <source>New Palette</source>
-        <translation>Νέα Παλέτα</translation>
+        <translation type="vanished">Νέα Παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="182"/>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="197"/>
         <source>Name</source>
-        <translation>Όνομα</translation>
+        <translation type="vanished">Όνομα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="223"/>
         <source>GIMP Palettes (*.gpl)</source>
-        <translation>Παλέτες GIMP (* .gpl)</translation>
+        <translation type="vanished">Παλέτες GIMP (* .gpl)</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="224"/>
         <source>Palette Image (%1)</source>
-        <translation>Παλέτα Εικόνας (% 1)</translation>
+        <translation type="vanished">Παλέτα Εικόνας (% 1)</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="225"/>
         <source>All Files (*)</source>
-        <translation>Όλα τα Αρχεία (*)</translation>
+        <translation type="vanished">Όλα τα Αρχεία (*)</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="226"/>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="239"/>
         <source>Open Palette</source>
-        <translation>Ανοίξτε την Παλέτα</translation>
+        <translation type="vanished">Ανοίξτε την Παλέτα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="240"/>
         <source>Failed to load the palette file
 %1</source>
-        <translation>Αποτυχία φόρτωσης του αρχείου παλέτας
+        <translation type="vanished">Αποτυχία φόρτωσης του αρχείου παλέτας
 %1</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::GradientEditor</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_editor.cpp" line="321"/>
         <source>Add Color</source>
-        <translation>Προσθήκη Χρώματος</translation>
+        <translation type="vanished">Προσθήκη Χρώματος</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_editor.cpp" line="330"/>
         <source>Remove Color</source>
-        <translation>Αφαιρέστε το Χρώμα</translation>
+        <translation type="vanished">Αφαιρέστε το Χρώμα</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_editor.cpp" line="338"/>
         <source>Edit Color...</source>
-        <translation>Επεξεργασία Χρώματος...</translation>
+        <translation type="vanished">Επεξεργασία Χρώματος...</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::GradientListModel</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_list_model.cpp" line="215"/>
         <source>%1 (%2 colors)</source>
-        <translation>% 1 (% 2 χρώματα)</translation>
+        <translation type="vanished">% 1 (% 2 χρώματα)</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::Swatch</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/swatch.cpp" line="855"/>
         <source>Clear Color</source>
-        <translation>Καθαρισμός Χρώματος</translation>
+        <translation type="vanished">Καθαρισμός Χρώματος</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/swatch.cpp" line="864"/>
         <source>%1 (%2)</source>
-        <translation>%1 (%2)</translation>
+        <translation type="vanished">%1 (%2)</translation>
     </message>
 </context>
 </TS>

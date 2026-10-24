@@ -498,6 +498,12 @@ void Flameshot::exportCapture(const QPixmap& capture,
         }
     }
 
+    if (tasks & CR::OCR) {
+        // Run OCR in the daemon so the result survives this process (the
+        // `flameshot gui` process exits right after exportCapture)
+        FlameshotDaemon::runOcr(capture);
+    }
+
 #ifdef ENABLE_IMGUR
     if (tasks & CR::UPLOAD) {
         if (!ConfigHandler().uploadWithoutConfirmation()) {

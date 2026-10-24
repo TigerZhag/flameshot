@@ -7,6 +7,7 @@ target_sources(
           systemnotification.h
           valuehandler.h
           strfparse.h
+          ocrrunner.h
 )
 
 target_sources(
@@ -26,6 +27,7 @@ target_sources(
           colorutils.cpp
           history.cpp
           strfparse.cpp
+          ocrrunner.cpp
 )
 
 IF (UNIX AND NOT APPLE)

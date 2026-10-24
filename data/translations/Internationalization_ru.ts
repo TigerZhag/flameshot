@@ -4,24 +4,20 @@
 <context>
     <name>AbstractWidgetList</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="52"/>
         <source>Add New</source>
-        <translation>Добавить новый</translation>
+        <translation type="vanished">Добавить новый</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="103"/>
         <source>Move Up</source>
-        <translation>Поднять</translation>
+        <translation type="vanished">Поднять</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="104"/>
         <source>Move Down</source>
-        <translation>Опустить</translation>
+        <translation type="vanished">Опустить</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/abstract_widget_list.cpp" line="105"/>
         <source>Remove</source>
-        <translation>Убрать</translation>
+        <translation type="vanished">Убрать</translation>
     </message>
 </context>
 <context>
@@ -53,33 +49,35 @@
 <context>
     <name>AppLauncherWidget</name>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="51"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="53"/>
         <source>Open With</source>
         <translation>Открыть с помощью</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="80"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="82"/>
         <source>Launch in terminal</source>
         <translation>Запустить в терминале</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="81"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="83"/>
         <source>Keep open after selection</source>
         <translation>Оставить запущенным после выбора</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="117"/>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="151"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="123"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="130"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="165"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="117"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="123"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="130"/>
         <source>Unable to write in</source>
         <translation>Не удалось сохранить</translation>
     </message>
     <message>
-        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="151"/>
+        <location filename="../../src/tools/launcher/applauncherwidget.cpp" line="165"/>
         <source>Unable to launch in terminal.</source>
         <translation>Не удалось запустить в терминале.</translation>
     </message>
@@ -87,14 +85,29 @@
 <context>
     <name>ArrowTool</name>
     <message>
-        <location filename="../../src/tools/arrow/arrowtool.cpp" line="78"/>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="145"/>
         <source>Arrow</source>
         <translation>Стрелка</translation>
     </message>
     <message>
-        <location filename="../../src/tools/arrow/arrowtool.cpp" line="88"/>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="155"/>
         <source>Set the Arrow as the paint tool</source>
         <translation>Выбрать инструмент «Стрелка»</translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="209"/>
+        <source>Arrow style:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="212"/>
+        <source>Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/arrow/arrowtool.cpp" line="213"/>
+        <source>Curved</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -150,26 +163,22 @@
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="94"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="186"/>
         <location filename="../../src/widgets/capturelauncher.cpp" line="90"/>
         <source> seconds</source>
         <translation> секунд(ы)</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="166"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="188"/>
         <source>Take new screenshot</source>
         <translation>Сделать новый снимок</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="47"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="181"/>
         <source>Area:</source>
         <translation>Область:</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="14"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="179"/>
         <source>Capture Launcher</source>
         <translation>Запуск захвата</translation>
     </message>
@@ -179,25 +188,21 @@
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="32"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="180"/>
         <source>Capture Mode</source>
         <translation>Режим захвата</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="64"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="183"/>
         <source>Delay:</source>
         <translation>Задержка:</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="71"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="184"/>
         <source>Monitor:</source>
         <translation>Монитор:</translation>
     </message>
     <message>
         <location filename="../../src/widgets/capturelauncher.ui" line="87"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_capturelauncher.h" line="185"/>
         <source>WxH+x+y</source>
         <translation>Ш×В+x+y</translation>
     </message>
@@ -209,72 +214,72 @@
         <translation type="vanished">Не удалось захватить экран</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="468"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="474"/>
         <source>Mouse</source>
         <translation>Мышь</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="468"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="474"/>
         <source>Select screenshot area</source>
         <translation>Выбрать область снимка</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="482"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="488"/>
         <source>Mouse Wheel</source>
         <translation>Колесо мыши</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="482"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="488"/>
         <source>Change tool size</source>
         <translation>Изменить размер инструмента</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="483"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="489"/>
         <source>Right Click</source>
         <translation>Правый щелчок мыши</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="483"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="489"/>
         <source>Show color picker</source>
         <translation>Показать палитру цветов</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="485"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="491"/>
         <source>Open side panel</source>
         <translation>Открыть боковую панель</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="486"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="492"/>
         <source>Esc</source>
         <translation>Esc</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="486"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="492"/>
         <source>Exit</source>
         <translation>Выход</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="527"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="533"/>
         <source>Quit Capture</source>
         <translation>Выйти из захвата</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="528"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="534"/>
         <source>Are you sure you want to quit capture?</source>
         <translation>Уверены, что хотите выйти из захвата?</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="533"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="539"/>
         <source>Do not show this again</source>
         <translation>Не показывать это снова</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="777"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="783"/>
         <source>Flameshot has lost focus. Keyboard shortcuts won&apos;t work until you click somewhere.</source>
         <translation>Flameshot потерял фокус. Сочетания клавиш не будут работать, пока вы не нажмёте где-нибудь.</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="783"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="789"/>
         <source>Configuration error resolved. Launch `flameshot gui` again to apply it.</source>
         <translation>Ошибка конфигурации устранена. Запустите `flameshot gui` снова, чтобы применить её.</translation>
     </message>
@@ -291,7 +296,7 @@ Press Space to open the side panel.</source>
 Нажмите Пробел, чтобы открыть боковую панель.</translation>
     </message>
     <message>
-        <location filename="../../src/widgets/capture/capturewidget.cpp" line="1215"/>
+        <location filename="../../src/widgets/capture/capturewidget.cpp" line="1227"/>
         <source>Tool Settings</source>
         <translation>Настройки инструмента</translation>
     </message>
@@ -299,12 +304,12 @@ Press Space to open the side panel.</source>
 <context>
     <name>CircleCountTool</name>
     <message>
-        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="69"/>
+        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="72"/>
         <source>Circle Counter</source>
         <translation>Нумерация</translation>
     </message>
     <message>
-        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="87"/>
+        <location filename="../../src/tools/circlecount/circlecounttool.cpp" line="90"/>
         <source>Add an autoincrementing counter bubble</source>
         <translation>Добавить круг-счётчик с автоприращением</translation>
     </message>
@@ -325,58 +330,40 @@ Press Space to open the side panel.</source>
 <context>
     <name>ColorDialog</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="19"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="312"/>
         <source>Select Color</source>
-        <translation>Выбрать цвет</translation>
+        <translation type="vanished">Выбрать цвет</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="60"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="313"/>
         <source>Saturation</source>
-        <translation>Насыщенность</translation>
+        <translation type="vanished">Насыщенность</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="67"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="314"/>
         <source>Hue</source>
-        <translation>Оттенок</translation>
+        <translation type="vanished">Оттенок</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="84"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="315"/>
         <source>Hex</source>
-        <translation>Шестнадцатеричный</translation>
+        <translation type="vanished">Шестнадцатеричный</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="91"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="316"/>
         <source>Blue</source>
-        <translation>Синий</translation>
+        <translation type="vanished">Синий</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="128"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="317"/>
         <source>Value</source>
-        <translation>Значение</translation>
+        <translation type="vanished">Значение</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="135"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="318"/>
         <source>Green</source>
-        <translation>Зелёный</translation>
+        <translation type="vanished">Зелёный</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="142"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="319"/>
         <source>Alpha</source>
-        <translation>Альфа</translation>
+        <translation type="vanished">Альфа</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.ui" line="149"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_dialog.h" line="320"/>
         <source>Red</source>
-        <translation>Красный</translation>
+        <translation type="vanished">Красный</translation>
     </message>
 </context>
 <context>
@@ -510,40 +497,40 @@ Press Space to open the side panel.</source>
 <context>
     <name>ConfigHandler</name>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="600"/>
+        <location filename="../../src/utils/confighandler.cpp" line="609"/>
         <source>Unrecognized setting: &apos;%1&apos;
 </source>
         <translation>Неизвестная настройка: «%1»
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="608"/>
+        <location filename="../../src/utils/confighandler.cpp" line="617"/>
         <source>Unrecognized shortcut name: &apos;%1&apos;.
 </source>
         <translation>Неизвестное название сочетания клавиш: «%1».
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="651"/>
+        <location filename="../../src/utils/confighandler.cpp" line="660"/>
         <source>Shortcut conflict: &apos;%1&apos; and &apos;%2&apos; have the same shortcut: %3
 </source>
         <translation>Конфликт сочетания клавиш: «%1» и «%2» совпадают: %3
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="689"/>
+        <location filename="../../src/utils/confighandler.cpp" line="698"/>
         <source>Bad value in &apos;%1&apos;. Expected: %2
 </source>
         <translation>Неверное значение в «%1». Ожидалось: %2
 </translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="738"/>
+        <location filename="../../src/utils/confighandler.cpp" line="747"/>
         <source>You have successfully resolved the configuration error.</source>
         <translation>Вы успешно устранили ошибку конфигурации.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="761"/>
+        <location filename="../../src/utils/confighandler.cpp" line="770"/>
         <source>The configuration contains an error. Open configuration to resolve.</source>
         <translation>Конфигурация содержит ошибку. Откройте конфигурацию для решения.</translation>
     </message>
@@ -552,7 +539,7 @@ Press Space to open the side panel.</source>
         <translation type="vanished">Конфигурация содержит ошибку. Возврат к умолчанию.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/confighandler.cpp" line="816"/>
+        <location filename="../../src/utils/confighandler.cpp" line="825"/>
         <source>Bad config key &apos;%1&apos; in ConfigHandler. Please report this as a bug.</source>
         <translation>Неверный ключ конфигурации &apos;%1&apos; в ConfigHandler. Пожалуйста, сообщите об этом как об ошибке.</translation>
     </message>
@@ -617,37 +604,37 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>ConfigWindow</name>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="39"/>
+        <location filename="../../src/config/configwindow.cpp" line="44"/>
         <source>Configuration</source>
         <translation>Настройки</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="67"/>
+        <location filename="../../src/config/configwindow.cpp" line="72"/>
         <source>Interface</source>
         <translation>Интерфейс</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="77"/>
+        <location filename="../../src/config/configwindow.cpp" line="82"/>
         <source>Filename Editor</source>
         <translation>Шаблон имён файлов</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="58"/>
+        <location filename="../../src/config/configwindow.cpp" line="63"/>
         <source>General</source>
         <translation>Общие</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="86"/>
+        <location filename="../../src/config/configwindow.cpp" line="91"/>
         <source>Shortcuts</source>
         <translation>Горячие клавиши</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="119"/>
+        <location filename="../../src/config/configwindow.cpp" line="124"/>
         <source>Resolve</source>
         <translation>Решить</translation>
     </message>
     <message>
-        <location filename="../../src/config/configwindow.cpp" line="123"/>
+        <location filename="../../src/config/configwindow.cpp" line="128"/>
         <source>&lt;b&gt;Configuration file has errors. Resolve them before continuing.&lt;/b&gt;</source>
         <translation>&lt;b&gt;Файл конфигурации содержит ошибки. Исправьте их перед продолжением.&lt;/b&gt;</translation>
     </message>
@@ -807,17 +794,17 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>Flameshot</name>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="122"/>
+        <location filename="../../src/core/flameshot.cpp" line="165"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="122"/>
+        <location filename="../../src/core/flameshot.cpp" line="165"/>
         <source>Unable to close active modal widgets</source>
         <translation>Не удаётся закрыть активные модальные виджеты</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="441"/>
+        <location filename="../../src/core/flameshot.cpp" line="527"/>
         <source>URL copied to clipboard.</source>
         <translation>Ссылка скопирована в буфер обмена.</translation>
     </message>
@@ -829,18 +816,18 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Доступна новая версия: %1</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="272"/>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="436"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="275"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="435"/>
         <source>You have the latest version</source>
         <translation>У вас самая последняя версия</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="445"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="444"/>
         <source>Failed to get information about the latest version.</source>
         <translation>Не удалось получить информацию о последней версии.</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshotdaemon.cpp" line="468"/>
+        <location filename="../../src/core/flameshotdaemon.cpp" line="467"/>
         <source>Unable to connect via DBus</source>
         <translation>Не удалось подключиться по DBus</translation>
     </message>
@@ -987,47 +974,47 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>GeneralConf</name>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="195"/>
+        <location filename="../../src/config/generalconf.cpp" line="197"/>
         <location filename="../../src/config/generalconf.cpp" line="379"/>
         <source>Import</source>
         <translation>Импорт</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="201"/>
-        <location filename="../../src/config/generalconf.cpp" line="210"/>
-        <location filename="../../src/config/generalconf.cpp" line="235"/>
+        <location filename="../../src/config/generalconf.cpp" line="203"/>
+        <location filename="../../src/config/generalconf.cpp" line="212"/>
+        <location filename="../../src/config/generalconf.cpp" line="237"/>
         <location filename="../../src/config/generalconf.cpp" line="754"/>
         <source>Error</source>
         <translation>Ошибка</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="201"/>
+        <location filename="../../src/config/generalconf.cpp" line="203"/>
         <source>Unable to read file.</source>
         <translation>Не удалось прочитать файл.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="210"/>
-        <location filename="../../src/config/generalconf.cpp" line="235"/>
+        <location filename="../../src/config/generalconf.cpp" line="212"/>
+        <location filename="../../src/config/generalconf.cpp" line="237"/>
         <source>Unable to write file.</source>
         <translation>Не удалось записать файл.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="222"/>
+        <location filename="../../src/config/generalconf.cpp" line="224"/>
         <source>Save File</source>
         <translation>Сохранить файл</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="244"/>
+        <location filename="../../src/config/generalconf.cpp" line="246"/>
         <source>Confirm Reset</source>
         <translation>Подтвердить сброс</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="245"/>
+        <location filename="../../src/config/generalconf.cpp" line="247"/>
         <source>Are you sure you want to reset the configuration?</source>
         <translation>Вы действительно хотите сбросить настройки?</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="276"/>
+        <location filename="../../src/config/generalconf.cpp" line="278"/>
         <source>Show help message</source>
         <translation>Показывать справочное сообщение</translation>
     </message>
@@ -1036,7 +1023,7 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Показывать справочное сообщение перед началом захвата экрана.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="301"/>
+        <location filename="../../src/config/generalconf.cpp" line="303"/>
         <source>Show the side panel button</source>
         <translation>Показывать кнопку боковой панели</translation>
     </message>
@@ -1045,12 +1032,12 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Показывать кнопку открытия боковой панели в режиме захвата.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="314"/>
+        <location filename="../../src/config/generalconf.cpp" line="316"/>
         <source>Show desktop notifications</source>
         <translation>Показывать уведомления</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="339"/>
+        <location filename="../../src/config/generalconf.cpp" line="340"/>
         <source>Show tray icon</source>
         <translation>Показывать значок в трее</translation>
     </message>
@@ -1133,42 +1120,42 @@ Please solve them manually in the configuration file.</source>
         <translation type="vanished">Сохранять файл изображения после копирования</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="277"/>
+        <location filename="../../src/config/generalconf.cpp" line="279"/>
         <source>Show the help message at the beginning in the capture mode</source>
         <translation>Показывать справочное сообщение в начале режима захвата</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="287"/>
+        <location filename="../../src/config/generalconf.cpp" line="289"/>
         <source>Use last region for GUI mode</source>
         <translation>Использовать последнюю область для графического режима</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="289"/>
+        <location filename="../../src/config/generalconf.cpp" line="291"/>
         <source>Use the last region as the default selection for the next screenshot in GUI mode</source>
         <translation>Использовать последнюю область в качестве стандартной для следующего снимка в графическом режиме</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="303"/>
+        <location filename="../../src/config/generalconf.cpp" line="305"/>
         <source>Show the side panel toggle button in the capture mode</source>
         <translation>Показать кнопку переключения боковой панели в режиме захвата</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="315"/>
+        <location filename="../../src/config/generalconf.cpp" line="317"/>
         <source>Enable desktop notifications</source>
         <translation>Включить уведомления рабочего стола</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="326"/>
+        <location filename="../../src/config/generalconf.cpp" line="328"/>
         <source>Show abort notifications</source>
         <translation>Показывать уведомления о прекращении</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="327"/>
+        <location filename="../../src/config/generalconf.cpp" line="329"/>
         <source>Enable abort notifications</source>
         <translation>Включить уведомления о прекращении</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="340"/>
+        <location filename="../../src/config/generalconf.cpp" line="341"/>
         <source>Show icon in the system tray</source>
         <translation>Показывать значок в системном трее</translation>
     </message>
@@ -1439,32 +1426,64 @@ Please solve them manually in the configuration file.</source>
         <translation>Сначала рисовать наконечник стрелы</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="872"/>
+        <location filename="../../src/config/generalconf.cpp" line="873"/>
+        <source>Draw outline around circle counter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="875"/>
+        <source>Draw a contrasting ring around the counter bubble so it stays visible on any background</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="886"/>
         <source>Insecure Pixelate</source>
         <translation>Небезопасное размытие</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="874"/>
+        <location filename="../../src/config/generalconf.cpp" line="888"/>
         <source>Draw the pixelation effect in an insecure but more asethetic way.</source>
         <translation>Рисовать небезопасный, но более симпатичный эффект пиксельного размытия.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="929"/>
+        <location filename="../../src/config/generalconf.cpp" line="943"/>
+        <source>Capture active monitor in X11 and Windows (skip monitor selection)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="946"/>
+        <source>Automatically capture the monitor where the cursor is located instead of showing the monitor selection dialog. This feature is not supported on macOS and Wayland.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="967"/>
+        <source>Use native fullscreen for capture overlay</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="969"/>
+        <source>Use macOS native fullscreen mode for the capture overlay. When disabled (default), the overlay avoids the fullscreen desktop animation.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/generalconf.cpp" line="990"/>
+        <source>Use legacy X11 screenshot method</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Capture active monitor (skip monitor selection)</source>
-        <translation>Захватывать активный монитор (пропустить выбор монитора)</translation>
+        <translation type="vanished">Захватывать активный монитор (пропустить выбор монитора)</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="931"/>
         <source>Automatically capture the monitor where the cursor is located instead of showing the monitor selection dialog. This feature is not supported on Wayland.</source>
-        <translation>Автоматически захватывать монитор, на котором находится курсор, вместо показа диалога выбора монитора. Эта функция не поддерживается в Wayland.</translation>
+        <translation type="vanished">Автоматически захватывать монитор, на котором находится курсор, вместо показа диалога выбора монитора. Эта функция не поддерживается в Wayland.</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="952"/>
         <source>Use legacy X11 screenshot method (deprecated)</source>
-        <translation>Применять старый метод снимка экрана X11 (не рекомендуется)</translation>
+        <translation type="vanished">Применять старый метод снимка экрана X11 (не рекомендуется)</translation>
     </message>
     <message>
-        <location filename="../../src/config/generalconf.cpp" line="954"/>
+        <location filename="../../src/config/generalconf.cpp" line="992"/>
         <source>Bypass the freedesktop portal and use Qt&apos;s native X11 screen capture. Enable this if your window manager lacks xdg-desktop-portal (e.g. xmonad, i3). Only effective on X11; ignored on Wayland.</source>
         <translation>Обходить Freedesktop Portal и использовать родной захват Qt для X11. Включите, если у вашего оконного менеджера нет xdg-desktop-portal (напр., xmonad, i3). Работает только в X11; игнорируется в Wayland.</translation>
     </message>
@@ -1783,49 +1802,41 @@ Please solve them manually in the configuration file.</source>
     <name>InfoWindow</name>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="14"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="116"/>
         <source>About</source>
         <translation>О программе</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="26"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="117"/>
         <source>Icon</source>
         <translation>Значок</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="43"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="118"/>
         <source>License</source>
         <translation>Лицензия</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="56"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="119"/>
         <source>GPLv3+</source>
         <translation>GPLv3+</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="89"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="120"/>
         <source>Version</source>
         <translation>Версия</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="102"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="121"/>
         <source>Flameshot v</source>
         <translation>Flameshot v</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="115"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="122"/>
         <source>OS Info</source>
         <translation>Сведения об ОС</translation>
     </message>
     <message>
         <location filename="../../src/widgets/infowindow.ui" line="128"/>
-        <location filename="../../build/src/flameshot_autogen/include/ui_infowindow.h" line="123"/>
         <source>Copy Info</source>
         <translation>Копировать сведения</translation>
     </message>
@@ -1944,7 +1955,13 @@ Please solve them manually in the configuration file.</source>
 <context>
     <name>MonitorPreview</name>
     <message>
-        <location filename="../../src/utils/monitorpreview.cpp" line="31"/>
+        <location filename="../../src/utils/monitorpreview.cpp" line="45"/>
+        <source>Monitor %1: %2
+Click or press %1 to select</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/monitorpreview.cpp" line="48"/>
         <source>Monitor %1: %2
 Click to select</source>
         <translation>Монитор %1: %2
@@ -1962,6 +1979,52 @@ Click to select</source>
         <location filename="../../src/tools/move/movetool.cpp" line="34"/>
         <source>Move the selection area</source>
         <translation>Переместить выделенную область</translation>
+    </message>
+</context>
+<context>
+    <name>OcrRunner</name>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="20"/>
+        <source>Unable to save the selection for OCR.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="48"/>
+        <source>OCR failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="49"/>
+        <source>OCR failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="59"/>
+        <source>No text detected in the selection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="62"/>
+        <source>OCR text copied to clipboard.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/ocrrunner.cpp" line="71"/>
+        <source>Unable to find the tesseract executable. Install tesseract to use OCR.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OcrTool</name>
+    <message>
+        <location filename="../../src/tools/ocr/ocrtool.cpp" line="24"/>
+        <source>OCR</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/tools/ocr/ocrtool.cpp" line="33"/>
+        <source>Copy text from selection using OCR</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1993,42 +2056,42 @@ Click to select</source>
 <context>
     <name>PinWidget</name>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="282"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="278"/>
         <source>Context menu</source>
         <translation>Контекстное меню</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="284"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="280"/>
         <source>Copy to clipboard</source>
         <translation>Копировать в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="291"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="287"/>
         <source>Save to file</source>
         <translation>Сохранить в файл</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="298"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="294"/>
         <source>Rotate Right</source>
         <translation>Повернуть вправо</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="303"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="299"/>
         <source>Rotate Left</source>
         <translation>Повернуть влево</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="308"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="304"/>
         <source>Increase Opacity</source>
         <translation>Увеличить непрозрачность</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="315"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="311"/>
         <source>Decrease Opacity</source>
         <translation>Уменьшить непрозрачность</translation>
     </message>
     <message>
-        <location filename="../../src/tools/pin/pinwidget.cpp" line="322"/>
+        <location filename="../../src/tools/pin/pinwidget.cpp" line="318"/>
         <source>Close</source>
         <translation>Закрыть</translation>
     </message>
@@ -2053,14 +2116,12 @@ Click to select</source>
 <context>
     <name>PrimaryInstanceWidget</name>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/primaryinstancewidget.cpp" line="21"/>
         <source>Primary instance</source>
-        <translation>Первичный экземпляр</translation>
+        <translation type="vanished">Первичный экземпляр</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/primaryinstancewidget.cpp" line="22"/>
         <source>&lt;b&gt;Primary instance.&lt;/b&gt; Messages received from secondaries:</source>
-        <translation>&lt;b&gt;Первичный экземпляр.&lt;/b&gt; Сообщения полученные от вторичных:</translation>
+        <translation type="vanished">&lt;b&gt;Первичный экземпляр.&lt;/b&gt; Сообщения полученные от вторичных:</translation>
     </message>
 </context>
 <context>
@@ -2077,20 +2138,20 @@ Click to select</source>
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="369"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="427"/>
         <source>Save Error</source>
         <translation>Ошибка сохранения</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="64"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="349"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="123"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="407"/>
         <source>Capture saved as </source>
         <translation>Снимок сохранён в </translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="204"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="206"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="270"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="260"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="262"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="328"/>
         <source>Capture saved to clipboard.</source>
         <translation>Снимок скопирован в буфер обмена.</translation>
     </message>
@@ -2099,23 +2160,23 @@ Click to select</source>
         <translation type="vanished">Снимок скопирован в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="190"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="246"/>
         <source>Error while saving to clipboard</source>
         <translation>Ошибка при сохранении в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="69"/>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="362"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="128"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="420"/>
         <source>Error trying to save as </source>
         <translation>Ошибка при попытке сохранить как </translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="326"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="384"/>
         <source>Save screenshot</source>
         <translation>Сохранить снимок</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screenshotsaver.cpp" line="358"/>
+        <location filename="../../src/utils/screenshotsaver.cpp" line="416"/>
         <source>Path copied to clipboard as </source>
         <translation>Путь скопирован в буфер обмена как </translation>
     </message>
@@ -2132,17 +2193,17 @@ Click to select</source>
         <translation type="vanished">Снимок сохранён на диск и скопирован в буфер обмена как </translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="251"/>
+        <location filename="../../src/main.cpp" line="267"/>
         <source>Unable to connect via DBus</source>
         <translation>Не удалось подключиться по DBus</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="268"/>
+        <location filename="../../src/main.cpp" line="284"/>
         <source>Powerful yet simple to use screenshot software.</source>
         <translation>Продвинутый, но простой инструмент для создания снимков экрана.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="269"/>
+        <location filename="../../src/main.cpp" line="285"/>
         <source>See</source>
         <translation>Посмотреть</translation>
     </message>
@@ -2151,17 +2212,17 @@ Click to select</source>
         <translation type="vanished">Захватить весь рабочий стол.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="275"/>
+        <location filename="../../src/main.cpp" line="291"/>
         <source>Open the capture launcher.</source>
         <translation>Открыть средство запуска захвата.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="278"/>
+        <location filename="../../src/main.cpp" line="294"/>
         <source>Start a manual capture in GUI mode.</source>
         <translation>Запустить ручной захват в режиме графического интерфейса.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="280"/>
+        <location filename="../../src/main.cpp" line="296"/>
         <source>Configure</source>
         <translation>Настроить</translation>
     </message>
@@ -2174,27 +2235,27 @@ Click to select</source>
         <translation type="vanished">Путь сохранения снимка</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="273"/>
+        <location filename="../../src/main.cpp" line="289"/>
         <source>Capture screenshot of all monitors at the same time.</source>
         <translation>Захватить снимок со всех мониторов одновременно.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="283"/>
+        <location filename="../../src/main.cpp" line="299"/>
         <source>Capture a screenshot of the specified monitor.</source>
         <translation>Захватить снимок с указанного монитора.</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="288"/>
+        <location filename="../../src/main.cpp" line="304"/>
         <source>Existing directory or new file to save to</source>
         <translation>Существующая директория или новый файл для сохранения</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="291"/>
+        <location filename="../../src/main.cpp" line="307"/>
         <source>Save the capture to the clipboard</source>
         <translation>Сохранить снимок в буфер обмена</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="293"/>
+        <location filename="../../src/main.cpp" line="309"/>
         <source>Pin the capture to the screen</source>
         <translation>Закрепить захват на экране</translation>
     </message>
@@ -2203,97 +2264,97 @@ Click to select</source>
         <translation type="vanished">Отправить снимок экрана</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="295"/>
+        <location filename="../../src/main.cpp" line="311"/>
         <source>Delay time in milliseconds</source>
         <translation>Задержка в миллисекундах</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="300"/>
+        <location filename="../../src/main.cpp" line="316"/>
         <source>Repeat screenshot with previously selected region</source>
         <translation>Повторить снимок экрана с ранее выбранной областью</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="303"/>
+        <location filename="../../src/main.cpp" line="319"/>
         <source>Screenshot region to select</source>
         <translation>Выбор области снимка экрана</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="306"/>
+        <location filename="../../src/main.cpp" line="322"/>
         <source>Set the filename pattern</source>
         <translation>Установить шаблон имени файла</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="310"/>
+        <location filename="../../src/main.cpp" line="326"/>
         <source>Accept capture as soon as a selection is made</source>
         <translation>Принять захват, как только будет сделан выбор</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="312"/>
+        <location filename="../../src/main.cpp" line="328"/>
         <source>Enable or disable the trayicon</source>
         <translation>Включить или отключить значок в трее</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="316"/>
+        <location filename="../../src/main.cpp" line="332"/>
         <source>Enable or disable run at startup</source>
         <translation>Включение или отключение запуска при старте</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="320"/>
+        <location filename="../../src/main.cpp" line="336"/>
         <source>Enable or disable the notifications</source>
         <translation>Включить или отключить уведомления</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="323"/>
+        <location filename="../../src/main.cpp" line="339"/>
         <source>Check the configuration for errors</source>
         <translation>Проверить конфигурацию на наличие ошибок</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="326"/>
+        <location filename="../../src/main.cpp" line="342"/>
         <source>Show the help message in the capture mode</source>
         <translation>Показывать справочный сообщения в режиме захвата</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="329"/>
+        <location filename="../../src/main.cpp" line="345"/>
         <source>Define the main UI color</source>
         <translation>Задать основной цвет пользовательского интерфейса</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="333"/>
+        <location filename="../../src/main.cpp" line="349"/>
         <source>Define the contrast UI color</source>
         <translation>Определить цвет контраста пользовательского интерфейса</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="336"/>
+        <location filename="../../src/main.cpp" line="352"/>
         <source>Print raw PNG capture</source>
         <translation>Необработанное изображения PNG</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="339"/>
+        <location filename="../../src/main.cpp" line="355"/>
         <source>Print geometry of the selection in the format WxH+X+Y. Does nothing if raw is specified</source>
         <translation>Распечатать геометрию выделения в формате WxH+X+Y. Ничего не делает, если указано raw</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="343"/>
+        <location filename="../../src/main.cpp" line="359"/>
         <source>Define the screen to capture (starting from 0)</source>
         <translation>Укажите экран для захвата (начиная с 0)</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="349"/>
+        <location filename="../../src/main.cpp" line="365"/>
         <source>Interactively select and edit the screenshot region</source>
         <translation>Интерактивный выбор и редактирование области снимка экрана</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="366"/>
+        <location filename="../../src/main.cpp" line="382"/>
         <source>Invalid delay, it must be a number greater than 0</source>
         <translation>Недопустимая задержка, должно быть больше 0</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="369"/>
+        <location filename="../../src/main.cpp" line="385"/>
         <source>Invalid region, use &apos;WxH+X+Y&apos; or &apos;all&apos; or &apos;screen0/screen1/...&apos;.</source>
         <translation>Недопустимая область, используйте «WxH+X+Y» или «all» или «screen0/screen1/...».</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="382"/>
+        <location filename="../../src/main.cpp" line="398"/>
         <source>Invalid path, must be an existing directory or a new file in an existing directory</source>
         <translation>Недопустимый путь, укажите существующий каталог или новый файл в имеющемся каталоге</translation>
     </message>
@@ -2302,17 +2363,17 @@ Click to select</source>
         <translation type="vanished">Выберите экран для захвата</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="344"/>
+        <location filename="../../src/main.cpp" line="360"/>
         <source>default: screen containing the cursor</source>
         <translation>по умолчанию: экран, содержащий курсор мыши</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="345"/>
+        <location filename="../../src/main.cpp" line="361"/>
         <source>Screen number</source>
         <translation>Номер экрана</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="357"/>
+        <location filename="../../src/main.cpp" line="373"/>
         <source>Invalid color, this flag supports the following formats:
 - #RGB (each of R, G, and B is a single hex digit)
 - #RRGGBB
@@ -2333,7 +2394,7 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Недействительная задержка, она должна быть больше 0</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="368"/>
+        <location filename="../../src/main.cpp" line="384"/>
         <source>Invalid screen number, it must be non negative</source>
         <translation>Недействительный номер экрана, он должен быть неотрицательным</translation>
     </message>
@@ -2342,7 +2403,7 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation type="vanished">Неверный путь, это должен быть реальный путь в системе</translation>
     </message>
     <message>
-        <location filename="../../src/main.cpp" line="395"/>
+        <location filename="../../src/main.cpp" line="411"/>
         <source>Invalid value, it must be defined as &apos;true&apos; or &apos;false&apos;</source>
         <translation>Недействительное значение, оно должно быть определено как «true» или «false»</translation>
     </message>
@@ -2357,12 +2418,12 @@ You may need to escape the &apos;#&apos; sign as in &apos;\#FFF&apos;</source>
         <translation>Не удалось сохранить</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="168"/>
+        <location filename="../../src/core/flameshot.cpp" line="214"/>
         <source>Requested screen exceeds screen count</source>
         <translation>Запрашиваемый экран превышает доступное число экранов</translation>
     </message>
     <message>
-        <location filename="../../src/core/flameshot.cpp" line="418"/>
+        <location filename="../../src/core/flameshot.cpp" line="498"/>
         <source>Full screen screenshot pinned to screen</source>
         <translation>Полноэкранный снимок закреплён на экране</translation>
     </message>
@@ -2468,27 +2529,27 @@ You can find me in the system tray.</source>
         <translation type="vanished">Удалить текущий инструмент</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="208"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="209"/>
         <source>Quit capture</source>
         <translation>Выйти из захвата экрана</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="224"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="225"/>
         <source>Screenshot history</source>
         <translation>История снимков</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="219"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="220"/>
         <source>Capture screen</source>
         <translation>Захватить экран</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="233"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="234"/>
         <source>Show color picker</source>
         <translation>Показать выбор цвета</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="234"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="235"/>
         <source>Change the tool&apos;s size</source>
         <translation>Изменить размер инструмента</translation>
     </message>
@@ -2567,106 +2628,121 @@ You can find me in the system tray.</source>
         <translation type="vanished">Подсказка: попробуйте задать переменную среды XDG_CURRENT_DESKTOP.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="61"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="65"/>
         <source>Could not locate the `org.freedesktop.portal.Desktop` service</source>
         <translation>Не удалось найти службу `org.freedesktop.portal.Desktop`</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="109"/>
         <source>Screenshot portal timed out after 30 seconds</source>
-        <translation>Истекло время ожидания портала снимков экрана через 30 секунд</translation>
+        <translation type="vanished">Истекло время ожидания портала снимков экрана через 30 секунд</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="132"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="176"/>
         <source>FreeDesktop portal screenshot size: %1x%2, DPR: %3</source>
         <translation>Размер снимка экрана через портал FreeDesktop: %1×%2, DPR: %3</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="159"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="251"/>
         <source>Capture Active Monitor is not supported on Wayland due to Wayland security model.</source>
         <translation>Захват активного монитора не поддерживается в Wayland из-за модели безопасности Wayland.</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="177"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="269"/>
         <source>Screenshot already in progress, please wait for the current screenshot to complete</source>
         <translation>Создание снимка экрана уже выполняется, пожалуйста, дождитесь завершения текущего снимка</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="202"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="296"/>
         <source>Screenshot cancelled</source>
         <translation>Создание снимка экрана отменено</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="218"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="312"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="318"/>
         <source>Unable to get current screen</source>
         <translation>Не удалось получить текущий экран</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="237"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="243"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="299"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="304"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="198"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="221"/>
         <source>Unable to capture screen</source>
         <translation>Не удалось захватить экран</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="373"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="150"/>
+        <source>The `org.freedesktop.portal.Screenshot` request failed: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/screengrabber.cpp" line="163"/>
+        <source>The xdg-desktop-portal backend did not respond If you are on wayland make sure an xdg-desktop-portal backend for your desktop is installed and properly configured.
+ 
+If on X11 enable Legacy X11 method in the General Settings</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/screengrabber.cpp" line="212"/>
+        <source>Screenshot portal unavailable, using direct X11 capture</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/utils/screengrabber.cpp" line="447"/>
         <source>=== All Screen Information ===</source>
         <translation>=== Сведения обо всех экранах ===</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="376"/>
-        <location filename="../../src/utils/screengrabber.cpp" line="551"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="450"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="733"/>
         <source>Screen %1: %2</source>
         <translation>Экран %1: %2</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="377"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="451"/>
         <source>  Logical geometry: %1x%2+%3+%4</source>
         <translation>  Логическая геометрия: %1×%2+%3+%4</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="382"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="456"/>
         <source>  DPR: %1</source>
         <translation>  DPR: %1</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="488"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="670"/>
         <source>Total logical dimensions: %1x%2 (min: %3,%4)</source>
         <translation>Общие логические размеры: %1×%2 (мин: %3,%4)</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="493"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="675"/>
         <source>Screenshot dimensions: %1x%2</source>
         <translation>Размеры снимка экрана: %1×%2</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="509"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="691"/>
         <source>Screenshot scale factors: X=%1 Y=%2</source>
         <translation>Коэффициенты масштабирования снимка экрана: X=%1 Y=%2</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="542"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="724"/>
         <source>Calculated crop position for mixed DPI: X=%1 Y=%2</source>
         <translation>Вычисленная позиция обрезки для смешанного DPI: X=%1 Y=%2</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="552"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="734"/>
         <source>  Logical geometry: %1x%2+%3+%4 DPR: %5</source>
         <translation>  Логическая геометрия: %1×%2+%3+%4 DPR: %5</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="558"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="740"/>
         <source>  Crop rect in screenshot: %1x%2+%3+%4</source>
         <translation>  Прямоугольник обрезки на снимке: %1×%2+%3+%4</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="571"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="753"/>
         <source>Crop rect is empty, returning full screenshot</source>
         <translation>Прямоугольник обрезки пуст, возвращается полный снимок экрана</translation>
     </message>
     <message>
-        <location filename="../../src/utils/screengrabber.cpp" line="587"/>
+        <location filename="../../src/utils/screengrabber.cpp" line="769"/>
         <source>Scaling screenshot to: %1 %2</source>
         <translation>Масштабирование снимка экрана до: %1 %2</translation>
     </message>
@@ -2674,34 +2750,28 @@ You can find me in the system tray.</source>
 <context>
     <name>SecondaryInstanceWidget</name>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="26"/>
         <source>Secondary instance</source>
-        <translation>Вторичный экземпляр</translation>
+        <translation type="vanished">Вторичный экземпляр</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="27"/>
         <source>&lt;b&gt;Secondary instance.&lt;/b&gt; Send message to primary:</source>
-        <translation>&lt;b&gt;Вторичный экземпляр.&lt;/b&gt; Отправленное сообщение первичному:</translation>
+        <translation type="vanished">&lt;b&gt;Вторичный экземпляр.&lt;/b&gt; Отправленное сообщение первичному:</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="29"/>
         <source>Type something here...</source>
-        <translation>Напишите что-нибудь здесь…</translation>
+        <translation type="vanished">Напишите что-нибудь здесь…</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="31"/>
         <source>&amp;Send</source>
-        <translation>Отпра&amp;вить</translation>
+        <translation type="vanished">Отпра&amp;вить</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="54"/>
         <source>Error sending message</source>
-        <translation>Ошибка при отправке сообщения</translation>
+        <translation type="vanished">Ошибка при отправке сообщения</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/kdsingleapplication-src/examples/widgetsingleapplication/secondaryinstancewidget.cpp" line="55"/>
         <source>The message &apos;%1&apos; could not be sent to the primary.</source>
-        <translation>Сообщение «%1» не удалось отправить первичному.</translation>
+        <translation type="vanished">Сообщение «%1» не удалось отправить первичному.</translation>
     </message>
 </context>
 <context>
@@ -2864,40 +2934,45 @@ You can find me in the system tray.</source>
         <translation>Отменить текущее выделение</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="268"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="206"/>
+        <source>Close Active Pinned Window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/shortcutswidget.cpp" line="269"/>
         <source>It seems, that Windows forces to open its screenshot tool when the &apos;Print Screen&apos; key is pressed. Would you like to disable this so that Flameshot can use the &apos;Print Screen&apos; key?</source>
         <translation>Похоже, Windows принудительно открывает свой инструмент создания снимков экрана при нажатии клавиши «Print Screen». Хотите отключить это, чтобы Flameshot мог использовать клавишу «Print Screen»?</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="273"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="274"/>
         <source>Flameshot must be restarted for changes to take effect.</source>
         <translation>Необходимо перезапустить Flameshot для применения изменений.</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="278"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="279"/>
         <source>No, don&apos;t ask again</source>
         <translation>Нет, не спрашивать снова</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="286"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="333"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="343"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="287"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="334"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="344"/>
         <source>The registry could not be changed!</source>
         <translation>Не удалось изменить реестр!</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="317"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="318"/>
         <source>Register Flameshot as MS-SCREENCLIP application (administrator privileges required)</source>
         <translation>Зарегистрировать Flameshot как приложение MS-SCREENCLIP (требуются права администратора)</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="321"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="322"/>
         <source>After registering, you can select Flameshot as the default screenshot application in Windows Settings.</source>
         <translation>После регистрации вы сможете выбрать Flameshot в качестве приложения для создания снимков экрана по умолчанию в настройках Windows.</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="334"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="344"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="335"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="345"/>
         <source>You may start Flameshot as administrator ONCE and try again!</source>
         <translation>Вы можете запустить Flameshot от имени администратора ОДИН РАЗ и повторить попытку!</translation>
     </message>
@@ -2906,13 +2981,13 @@ You can find me in the system tray.</source>
         <translation type="vanished">Удалить текущий инструмент</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="213"/>
-        <location filename="../../src/config/shortcutswidget.cpp" line="222"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="214"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="223"/>
         <source>Capture screen</source>
         <translation>Захватить экран</translation>
     </message>
     <message>
-        <location filename="../../src/config/shortcutswidget.cpp" line="215"/>
+        <location filename="../../src/config/shortcutswidget.cpp" line="216"/>
         <source>Screenshot history</source>
         <translation>История снимков</translation>
     </message>
@@ -2996,92 +3071,114 @@ You can find me in the system tray.</source>
 <context>
     <name>StrftimeChooserWidget</name>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="44"/>
         <source>Century (00-99)</source>
-        <translation type="vanished">Век (00-99)</translation>
+        <translation>Век (00-99)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="45"/>
         <source>Year (00-99)</source>
-        <translation type="vanished">Год (00-99)</translation>
+        <translation>Год (00-99)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="46"/>
         <source>Year (2000)</source>
-        <translation type="vanished">Год (2000)</translation>
+        <translation>Год (2000)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="49"/>
         <source>Month Name (jan)</source>
-        <translation type="vanished">Название месяца (янв)</translation>
+        <translation>Название месяца (янв)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="50"/>
         <source>Month Name (january)</source>
-        <translation type="vanished">Название месяца (январь)</translation>
+        <translation>Название месяца (январь)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="52"/>
         <source>Month (01-12)</source>
-        <translation type="vanished">Месяц (01-12)</translation>
+        <translation>Месяц (01-12)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="53"/>
         <source>Week Day (1-7)</source>
-        <translation type="vanished">День недели (1-7)</translation>
+        <translation>День недели (1-7)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="54"/>
         <source>Week (01-53)</source>
-        <translation type="vanished">Неделя (01-53)</translation>
+        <translation>Неделя (01-53)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="57"/>
         <source>Day Name (mon)</source>
-        <translation type="vanished">День недели (пн)</translation>
+        <translation>День недели (пн)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="58"/>
         <source>Day Name (monday)</source>
-        <translation type="vanished">День недели (понедельник)</translation>
+        <translation>День недели (понедельник)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="60"/>
         <source>Day (01-31)</source>
-        <translation type="vanished">День (01-31)</translation>
+        <translation>День (01-31)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="61"/>
         <source>Day of Month (1-31)</source>
-        <translation type="vanished">День месяца (1-31)</translation>
+        <translation>День месяца (1-31)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="62"/>
         <source>Day (001-366)</source>
-        <translation type="vanished">День (001-366)</translation>
+        <translation>День (001-366)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="65"/>
         <source>Time (%H-%M-%S)</source>
-        <translation type="vanished">Время (%H-%M-%S)</translation>
+        <translation>Время (%H-%M-%S)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="66"/>
         <source>Time (%H-%M)</source>
-        <translation type="vanished">Время (%H-%M)</translation>
+        <translation>Время (%H-%M)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="68"/>
         <source>Hour (00-23)</source>
-        <translation type="vanished">Час (00-23)</translation>
+        <translation>Час (00-23)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="69"/>
         <source>Hour (01-12)</source>
-        <translation type="vanished">Час (01-12)</translation>
+        <translation>Час (01-12)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="70"/>
         <source>Minute (00-59)</source>
-        <translation type="vanished">Минуты (00-59)</translation>
+        <translation>Минуты (00-59)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="71"/>
         <source>Second (00-59)</source>
-        <translation type="vanished">Секунды (00-59)</translation>
+        <translation>Секунды (00-59)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="74"/>
         <source>Full Date (%m/%d/%y)</source>
-        <translation type="vanished">Полная дата (%m/%d/%y)</translation>
+        <translation>Полная дата (%m/%d/%y)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="76"/>
         <source>Full Date (%Y-%m-%d)</source>
-        <translation type="vanished">Полная дата (%Y-%m-%d)</translation>
+        <translation>Полная дата (%Y-%m-%d)</translation>
     </message>
     <message>
+        <location filename="../../src/config/strftimechooserwidget.cpp" line="77"/>
         <source>Full Date (%d-%m-%Y)</source>
-        <translation type="vanished">Полная дата (%d-%m-%Y)</translation>
+        <translation>Полная дата (%d-%m-%Y)</translation>
     </message>
 </context>
 <context>
@@ -3218,34 +3315,45 @@ You can find me in the system tray.</source>
         <translation type="vanished">Редактор цвета интерфейса</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="89"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="104"/>
         <source>Change the color moving the selectors and see the changes in the preview buttons.</source>
         <translation>Цвет меняется перемещением селекторов, изменения отображаются на кнопках предпросмотра.</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="100"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="115"/>
         <source>Select a Button to modify it</source>
         <translation>Выберите кнопку, чтобы изменить её</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="110"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="125"/>
         <source>Main Color</source>
         <translation>Основной цвет</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="114"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="129"/>
         <source>Click on this button to set the edition mode of the main color.</source>
         <translation>Нажмите на эту кнопку, чтобы перейти в режим правки основного цвета.</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="125"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="140"/>
         <source>Contrast Color</source>
         <translation>Контрастный цвет</translation>
     </message>
     <message>
-        <location filename="../../src/config/uicoloreditor.cpp" line="130"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="145"/>
         <source>Click on this button to set the edition mode of the contrast color.</source>
         <translation>Нажмите на эту кнопку, чтобы перейти в режим правки контрастного цвета.</translation>
+    </message>
+    <message>
+        <location filename="../../src/config/uicoloreditor.cpp" line="169"/>
+        <location filename="../../src/config/uicoloreditor.cpp" line="196"/>
+        <source>Hex for Main Color</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../../src/config/uicoloreditor.cpp" line="201"/>
+        <source>Hex for Contrast Color</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3408,160 +3516,124 @@ You can find me in the system tray.</source>
 <context>
     <name>color_widgets::ColorDialog</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_dialog.cpp" line="63"/>
         <source>Pick</source>
-        <translation>Выбрать</translation>
+        <translation type="vanished">Выбрать</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::ColorPalette</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette.cpp" line="422"/>
         <source>Unnamed</source>
-        <translation>Безымянный</translation>
+        <translation type="vanished">Безымянный</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::ColorPaletteModel</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_model.cpp" line="55"/>
         <source>Unnamed</source>
-        <translation>Безымянный</translation>
+        <translation type="vanished">Безымянный</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_model.cpp" line="130"/>
         <source>%1 (%2 colors)</source>
-        <translation>%1 (%2 цвета)</translation>
+        <translation type="vanished">%1 (%2 цвета)</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::ColorPaletteWidget</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="64"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="231"/>
         <source>Open a new palette from file</source>
-        <translation>Открыть новую палитру из файла</translation>
+        <translation type="vanished">Открыть новую палитру из файла</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="75"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="234"/>
         <source>Create a new palette</source>
-        <translation>Создать новую палитру</translation>
+        <translation type="vanished">Создать новую палитру</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="86"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="237"/>
         <source>Duplicate the current palette</source>
-        <translation>Дублировать текущую палитру</translation>
+        <translation type="vanished">Дублировать текущую палитру</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="170"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="240"/>
         <source>Delete the current palette</source>
-        <translation>Удалить текущую палитру</translation>
+        <translation type="vanished">Удалить текущую палитру</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="181"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="243"/>
         <source>Revert changes to the current palette</source>
-        <translation>Вернуть изменения к текущей палитре</translation>
+        <translation type="vanished">Вернуть изменения к текущей палитре</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="192"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="246"/>
         <source>Save changes to the current palette</source>
-        <translation>Сохранить изменения в текущей палитре</translation>
+        <translation type="vanished">Сохранить изменения в текущей палитре</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="216"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="249"/>
         <source>Add a color to the palette</source>
-        <translation>Добавить цвет в палитру</translation>
+        <translation type="vanished">Добавить цвет в палитру</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.ui" line="227"/>
-        <location filename="../../build/_deps/qtcolorwidgets-build/QtColorWidgets_autogen/include/ui_color_palette_widget.h" line="252"/>
         <source>Remove the selected color from the palette</source>
-        <translation>Удалить выбранный цвет из палитры</translation>
+        <translation type="vanished">Удалить выбранный цвет из палитры</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="181"/>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="196"/>
         <source>New Palette</source>
-        <translation>Новая палитра</translation>
+        <translation type="vanished">Новая палитра</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="182"/>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="197"/>
         <source>Name</source>
-        <translation>Имя</translation>
+        <translation type="vanished">Имя</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="223"/>
         <source>GIMP Palettes (*.gpl)</source>
-        <translation>Палитры GIMP (*.gpl)</translation>
+        <translation type="vanished">Палитры GIMP (*.gpl)</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="224"/>
         <source>Palette Image (%1)</source>
-        <translation>Изображение палитры (%1)</translation>
+        <translation type="vanished">Изображение палитры (%1)</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="225"/>
         <source>All Files (*)</source>
-        <translation>Все файлы (*)</translation>
+        <translation type="vanished">Все файлы (*)</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="226"/>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="239"/>
         <source>Open Palette</source>
-        <translation>Открыть палитру</translation>
+        <translation type="vanished">Открыть палитру</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/color_palette_widget.cpp" line="240"/>
         <source>Failed to load the palette file
 %1</source>
-        <translation>Не удалось загрузить файл палитры
+        <translation type="vanished">Не удалось загрузить файл палитры
 %1</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::GradientEditor</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_editor.cpp" line="321"/>
         <source>Add Color</source>
-        <translation>Добавить цвет</translation>
+        <translation type="vanished">Добавить цвет</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_editor.cpp" line="330"/>
         <source>Remove Color</source>
-        <translation>Удалить цвет</translation>
+        <translation type="vanished">Удалить цвет</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_editor.cpp" line="338"/>
         <source>Edit Color...</source>
-        <translation>Изменить цвет...</translation>
+        <translation type="vanished">Изменить цвет...</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::GradientListModel</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/gradient_list_model.cpp" line="215"/>
         <source>%1 (%2 colors)</source>
-        <translation>%1 (%2 цвета)</translation>
+        <translation type="vanished">%1 (%2 цвета)</translation>
     </message>
 </context>
 <context>
     <name>color_widgets::Swatch</name>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/swatch.cpp" line="855"/>
         <source>Clear Color</source>
-        <translation>Очистить цвет</translation>
+        <translation type="vanished">Очистить цвет</translation>
     </message>
     <message>
-        <location filename="../../build/_deps/qtcolorwidgets-src/src/QtColorWidgets/swatch.cpp" line="864"/>
         <source>%1 (%2)</source>
-        <translation>%1 (%2)</translation>
+        <translation type="vanished">%1 (%2)</translation>
     </message>
 </context>
 </TS>

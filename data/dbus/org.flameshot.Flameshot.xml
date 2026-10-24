@@ -44,5 +44,16 @@
       <arg name="notification" type="s" direction="in"/>
     </method>
 
+    <!--
+        attachOcr:
+        @data: Byte array containing the screenshot pixmap.
+
+        Run OCR on the screenshot in the daemon and copy the recognized text
+        to the clipboard.
+    -->
+    <method name="attachOcr">
+      <arg name="data" type="ay" direction="in"/>
+    </method>
+
   </interface>
 </node>

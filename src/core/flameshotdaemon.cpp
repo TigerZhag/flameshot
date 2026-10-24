@@ -4,6 +4,7 @@
 #include "utils/abstractlogger.h"
 #include "utils/confighandler.h"
 #include "utils/globalvalues.h"
+#include "utils/ocrrunner.h"
 #include "utils/screenshotsaver.h"
 #include "widgets/capture/capturewidget.h"
 #include "widgets/trayicon.h"
@@ -203,6 +204,29 @@ void FlameshotDaemon::copyToClipboard(const QString& text,
 #endif
 }
 
+void FlameshotDaemon::runOcr(const QPixmap& capture)
+{
+    if (instance()) {
+        instance()->attachOcr(capture);
+        return;
+    }
+
+    QByteArray data;
+    QDataStream stream(&data, QIODevice::WriteOnly);
+
+#if defined(USE_KDSINGLEAPPLICATION) &&                                        \
+  (defined(Q_OS_MACOS) || defined(Q_OS_WIN))
+    auto kdsa = KDSingleApplication(QStringLiteral("org.flameshot.Flameshot"));
+    stream << QStringLiteral("attachOcr") << capture;
+    kdsa.sendMessage(data);
+#else
+    stream << capture;
+    QDBusMessage m = createMethodCall(QStringLiteral("attachOcr"));
+    m << data;
+    call(m);
+#endif
+}
+
 /**
  * @brief Is this instance of flameshot hosting any windows as a daemon?
  */
@@ -355,6 +379,23 @@ void FlameshotDaemon::attachPin(const QByteArray& data)
     readPin(stream, pixmap, geometry);
 
     attachPin(pixmap, geometry);
+}
+
+void FlameshotDaemon::attachOcr(const QPixmap& pixmap)
+{
+    // The daemon outlives the runner; OcrRunner deletes itself when the
+    // OCR process is done
+    auto* ocrRunner = new OcrRunner(pixmap, this);
+    ocrRunner->start();
+}
+
+void FlameshotDaemon::attachOcr(const QByteArray& data)
+{
+    QDataStream stream(data);
+    QPixmap pixmap;
+    stream >> pixmap;
+
+    attachOcr(pixmap);
 }
 
 void FlameshotDaemon::attachScreenshotToClipboard(const QByteArray& screenshot)
@@ -526,6 +567,16 @@ void FlameshotDaemon::messageReceivedFromSecondaryInstance(
         } else {
             qWarning() << "Received \"attachTextToClipboard\" from second "
                           "instance, but text is empty!";
+        }
+    } else if (methodCall == QStringLiteral("attachOcr")) {
+        QPixmap capture;
+        stream >> capture;
+        // qDebug() << "Pixmap:" << capture;
+        if (!capture.isNull()) {
+            FlameshotDaemon::instance()->attachOcr(capture);
+        } else {
+            qWarning() << "Received \"attachOcr\" from second instance, but "
+                          "pixmap is empty!";
         }
     } else {
         qWarning() << "Received unknown message from second instance:"

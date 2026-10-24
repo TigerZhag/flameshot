@@ -30,6 +30,7 @@ public:
     static void copyToClipboard(const QPixmap& capture);
     static void copyToClipboard(const QString& text,
                                 const QString& notification = "");
+    static void runOcr(const QPixmap& capture);
     static bool isThisInstanceHostingWidgets();
 
     void sendTrayNotification(
@@ -68,6 +69,8 @@ private:
     void attachScreenshotToClipboard(const QByteArray& screenshot);
     void attachTextToClipboard(const QString& text,
                                const QString& notification);
+    void attachOcr(const QPixmap& pixmap);
+    void attachOcr(const QByteArray& data);
 
     void initTrayIcon();
     void enableTrayIcon(bool enable);
